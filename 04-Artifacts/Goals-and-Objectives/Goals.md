@@ -3,6 +3,13 @@
 ## Vision Statement
 <!-- One sentence describing the desired future state -->
 
+## Planning Sprint Objectives 
+
+### Writing Objectives 
+
+
+
+
 ## Goals
 
 ### Goal 1:
