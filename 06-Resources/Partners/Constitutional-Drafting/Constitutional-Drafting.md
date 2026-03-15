@@ -1,6 +1,6 @@
 # Partners: Constitutional Drafting
 
-Constitutional Drafting collaboration. All docs in this folder use the **Partners** title convention (see [../README.md](../README.md)).
+Constitutional Drafting collaboration. All docs in this folder use the **Partners** title convention (see [[Partners]]).
 
 | Doc | Description |
 |-----|-------------|

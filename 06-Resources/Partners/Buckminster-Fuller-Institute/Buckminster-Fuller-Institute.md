@@ -1,6 +1,6 @@
 # Partners: Buckminster Fuller Institute
 
-Buckminster Fuller Institute collaboration. All docs in this folder use the **Partners** title convention (see [../README.md](../README.md)).
+Buckminster Fuller Institute collaboration. All docs in this folder use the **Partners** title convention (see [[Partners]]).
 
 | Doc | Description |
 |-----|-------------|

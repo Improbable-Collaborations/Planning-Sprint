@@ -1,6 +1,6 @@
 # Partners: OpenServ — Builders Fund & Hitchhikers
 
-OpenServ Builders Fund × Hitchhikers × OASIS collaboration. All docs in this folder use the **Partners** title convention (see [../README.md](../README.md)).
+OpenServ Builders Fund × Hitchhikers × OASIS collaboration. All docs in this folder use the **Partners** title convention (see [[Partners]]).
 
 | Doc | Description |
 |-----|-------------|

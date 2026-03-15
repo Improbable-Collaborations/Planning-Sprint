@@ -1,6 +1,6 @@
 # Partners: United Earth Networks
 
-United Earth Networks collaboration. All docs in this folder use the **Partners** title convention (see [../README.md](../README.md)).
+United Earth Networks collaboration. All docs in this folder use the **Partners** title convention (see [[Partners]]).
 
 | Doc | Description |
 |-----|-------------|
