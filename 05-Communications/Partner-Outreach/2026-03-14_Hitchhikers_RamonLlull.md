@@ -1,4 +1,4 @@
-push> *Note on authorship: This document was first captured as a voice
+> *Note on authorship: This document was first captured as a voice
 > recording by Graham Stewart. It was subsequently organised, expanded,
 > and tidied by Claude (Anthropic). The ideas, intentions, and voice
 > remain Graham's.*
