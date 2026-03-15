@@ -11,6 +11,8 @@ A structured planning sprint repository for discovery, stakeholder alignment, an
 04-Artifacts/           Goals, roadmap, risk register, decision log, RACI matrix
 05-Communications/      Status updates and presentations
 06-Resources/           Reference materials and supporting documents
+  Partners/             Partner-specific docs (e.g. OpenServ Builders Fund, workshop summaries)
+  Projects/             Our initiatives (e.g. Pan Galactic Timebank — index + links to repo)
 ```
 
 ## Sprint Workflow

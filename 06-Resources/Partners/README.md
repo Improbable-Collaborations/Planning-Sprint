@@ -20,7 +20,7 @@ Adjust the descriptor as needed; keep **Partner name** (e.g. OpenServ, Hitchhike
 
 ---
 
-## Subfolders (optional)
+## Subfolders
 
 - **OpenServ/** — OpenServ Builders Fund, Hitchhikers collaboration, workshop summaries, status.
 - Add others as needed (e.g. by partner name or initiative).
