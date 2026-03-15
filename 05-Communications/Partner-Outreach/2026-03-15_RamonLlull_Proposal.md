@@ -10,7 +10,7 @@ This is a constitutional question, but it is not only a legal one. It sits at th
 
 We are building a year-long participatory constitutional drafting process that draws on exactly these methods. This note is an invitation to explore whether your institution might be interested in joining that work.
 
-## Why Science Fiction — and Why This Story
+## Hitchhikers Guide and the role of Science Fiction
 
 The use of speculative fiction as a research tool is increasingly recognised in academic contexts — from MIT's Science Fiction to Science Fabrication programme to the European Commission's use of speculative design in foresight exercises. Narrative makes abstract governance questions tangible. It surfaces assumptions. It lets people rehearse futures before committing to them.
 
