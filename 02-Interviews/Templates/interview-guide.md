@@ -9,7 +9,7 @@
 
 ## Opening (5 min)
 - Thank them for their time
-- Explain the purpose of the planning sprint
+- Explain purpose of the planning sprint
 - Confirm how their input will be used
 
 ## Core Questions (20-30 min)
