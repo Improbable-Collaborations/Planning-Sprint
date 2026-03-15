@@ -23,4 +23,8 @@ Adjust the descriptor as needed; keep **Partner name** (e.g. OpenServ, Hitchhike
 ## Subfolders
 
 - **OpenServ/** — OpenServ Builders Fund, Hitchhikers collaboration, workshop summaries, status.
-- Add others as needed (e.g. by partner name or initiative).
+- **Buckminster-Fuller-Institute/** — Buckminster Fuller Institute collaboration.
+- **United-Earth-Networks/** — United Earth Networks collaboration.
+- **Grant-Management-Associates/** — Grant Management Associates collaboration.
+- **LIONSBERG/** — LIONSBERG collaboration.
+- **Constitutional-Drafting/** — Constitutional Drafting collaboration.
