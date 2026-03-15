@@ -1,10 +1,10 @@
-# Partners: OpenServ — Builders Fund & Hitchhikers
+# OpenServ — Builders Fund & Hitchhikers
 
-OpenServ Builders Fund × Hitchhikers × OASIS collaboration. All docs in this folder use the **Partners** title convention (see [[Partners]]).
+OpenServ Builders Fund × Hitchhikers × OASIS collaboration. All docs in this folder use the **Partners** title convention (see [../Partners.md](../Partners.md)).
 
 | Doc | Description |
 |-----|-------------|
-| [Status-OpenServ-Builders-Fund-Current.md](./Status-OpenServ-Builders-Fund-Current.md) | **Status:** Current index — Save the Planet v2, workshop summary, next steps. |
-| [Workshop-summary-OpenServ-Hitchhikers-12-Mar-2025.md](./Workshop-summary-OpenServ-Hitchhikers-12-Mar-2025.md) | **Workshop summary:** David, Tim, Max — 12 Mar 2025 (Notion snapshot). |
+| [Status-OpenServ-Builders-Fund-Current.md](Status-OpenServ-Builders-Fund-Current.md) | Current status (Hitchhikers collaboration, Builders Fund structure, next steps). |
+| [Workshop-summary-OpenServ-Hitchhikers-12-Mar-2025.md](Workshop-summary-OpenServ-Hitchhikers-12-Mar-2025.md) | Workshop summary — 12 March 2025. |
 
-Add new OpenServ docs here with the title format: `# [Type]: OpenServ — [Descriptor]`.
+**Title format for new docs:** `# [Type]: OpenServ — [Descriptor]`

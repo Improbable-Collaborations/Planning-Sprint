@@ -1,6 +1,9 @@
 # LFG — Partners
 
-LFG (Laissez-Faire Group) partner materials. All docs in this folder use the **Partners** title convention (see [../Partners.md](../Partners.md)).
+**Laissez-Faire Group (LFG)** structures mandates, builds sovereign-grade products and opens new markets for governments and frontier innovators. They bring disciplined capital, experienced operators and global reach to high-conviction opportunities.  
+→ [laissezfairegroup.com](https://laissezfairegroup.com)
+
+Partner materials in this folder use the **Partners** title convention (see [../Partners.md](../Partners.md)).
 
 | Doc | Description |
 |-----|-------------|

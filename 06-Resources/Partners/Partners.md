@@ -1,4 +1,4 @@
-# Partners
+# Partners — Reference & Supporting Documents
 
 Reference materials and supporting documents **by partner** (e.g. OpenServ, Hitchhikers, other collaborators). Use this category for partner-specific briefs, status updates, workshop summaries, and shared artifacts.
 
@@ -22,9 +22,6 @@ Adjust the descriptor as needed; keep **Partner name** (e.g. OpenServ, Hitchhike
 
 ## Subfolders
 
-- **OpenServ/** — OpenServ Builders Fund, Hitchhikers collaboration, workshop summaries, status.
-- **Buckminster-Fuller-Institute/** — Buckminster Fuller Institute collaboration.
-- **United-Earth-Networks/** — United Earth Networks collaboration.
-- **Grant-Management-Associates/** — Grant Management Associates collaboration.
-- **LIONSBERG/** — LIONSBERG collaboration.
-- **Constitutional-Drafting/** — Constitutional Drafting collaboration.
+- **OpenServ/** — OpenServ Builders Fund, Hitchhikers collaboration, workshop summaries, status. Index: [OpenServ.md](OpenServ/OpenServ.md).
+- **LFG/** — Laissez-Faire Group partner materials. Index: [LFG.md](LFG/LFG.md).
+- Add others as needed (e.g. by partner name or initiative).

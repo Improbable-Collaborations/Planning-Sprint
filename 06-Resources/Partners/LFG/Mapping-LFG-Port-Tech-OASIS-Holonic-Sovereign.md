@@ -209,4 +209,4 @@ We explicitly call out the **Dual Agent** pattern from the Privacy Mage + Holoni
 
 - **Source PDF:** LFG_Port_Tech_Opportunity.pdf (Laissez-Faire Group, March 2026).
 - **OASIS reference:** Docs/SOVEREIGN_HOLONIC_ARCHITECTURE_USE_CASES.md.
-- **Related:** LFG-OASIS commercial discussions (Docs/oasis-commercial-discussion/), zkPass × OASIS (Docs/oasis-commercial-discussion/zkPass_OASIS_Avatar_Integration.md).
+- **Related:** LFG-OASIS commercial discussions (Docs/LFG/), zkPass × OASIS (Docs/LFG/zkPass_OASIS_Avatar_Integration.md).
