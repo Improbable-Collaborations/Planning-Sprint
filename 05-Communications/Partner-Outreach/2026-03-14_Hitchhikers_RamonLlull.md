@@ -120,12 +120,13 @@ cross-disciplinary sense-making.
 
 **Funding**
 
-We anticipate that funding for this work will come through Heather's
-institutional relationships --- at Oxford and associated institutions
---- rather than through open competitive calls. We are not pursuing
-generic grant frameworks. The intention is to work within networks of
-trust that already exist, and to let the funding follow the
-relationships rather than the other way around.
+We anticipate that funding for this work will come through existing
+personal and institutional relationships --- at Oxford and other
+American and European institutions --- rather than through open
+competitive calls. We are not pursuing generic grant frameworks. The
+intention is to work within networks of trust that already exist, and
+to let the funding follow the relationships rather than the other way
+around.
 
 **Reciprocal Working Agreement for Students**
 
@@ -178,11 +179,12 @@ meaningful in return.
 
 **Scope of Agreement**
 
-Any student wishing to collaborate formally with the Hitchhiker's Guide
-to Earth project would be invited to co-author a brief working agreement
-at the outset --- covering scope, expected outputs, time commitment, and
-attribution. This is not a contract, but a shared document of intent,
-revisable by either party. It reflects the project's broader philosophy:
+Any professor, class, or student wishing to collaborate formally with
+the Hitchhiker's Guide to Earth project would be invited to co-author a
+brief working agreement at the outset --- covering scope, expected
+outputs, time commitment, and attribution. This is not a contract, but a
+shared document of intent, revisable by either party and subject to
+ongoing mutual consent. It reflects the project's broader philosophy:
 that good collaboration begins with honest conversation about what each
 person needs and can offer.
 
