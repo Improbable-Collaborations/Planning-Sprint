@@ -6,7 +6,7 @@ Extracted from Fathom transcript: Hitchhiking with Didac.
 
 ## Graham
 
-- [ ] Email Nick Lloyd re: Barcelona revolutionary tours; propose meeting in Barcelona — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-15_Hitchhiking-David-Graham-Didac.md)_
+- [x] Email Nick Lloyd re: Barcelona revolutionary tours; propose meeting in Barcelona — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-15_Hitchhiking-David-Graham-Didac.md)_
 - [ ] Email Roy Littleson re: interview — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-15_Hitchhiking-David-Graham-Didac.md)_
 
 ## Didac
