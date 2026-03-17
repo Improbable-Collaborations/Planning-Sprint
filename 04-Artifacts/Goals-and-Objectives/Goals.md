@@ -7,8 +7,12 @@
 
 ### Writing Objectives 
 
-
-
+- [ ] By Sunday 15th - Proposal for Lluis 
+- [ ] Overall Business Plan 
+- [ ] Robbie and David's Hitchhiker's Declaration  
+- [ ] MVP Proposal for the "collaborative commons" (IP, technology, etc.)
+- [ ] Game of Games / nameless game / etc. proposal  
+- [ ] 
 
 ## Goals
 
