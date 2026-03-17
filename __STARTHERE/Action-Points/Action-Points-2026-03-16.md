@@ -1,6 +1,6 @@
 # Action Points — 2026-03-16
 
-Extracted from David Bovill's Signal voice messages.
+Extracted from David Bovill's Signal and Telegram voice messages.
 
 ## Fathom Videos and Automation
 
@@ -30,3 +30,25 @@ _Source: [Voice Transcript](../../05-Communications/Voice-Transcripts/2026-03-16
 - [ ] Confirm with Robbie regarding Hitchhiker IP transfer compatibility
 - [ ] Define sub-brands: Improbable Productions, Improbable Collaborations, Improbable Lottery, etc.
 - [ ] Clarify relationship between Improbable branding and the Nameless Guild
+
+## Planning Week and Timebank Session
+
+_Source: [Voice Transcript](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Planning-Week-And-Timebank-Session.md)_
+
+- [ ] Max to host Thursday session on Pan Galactic Time Bank and dynamic equity
+- [ ] Introduce Harish at the Thursday session
+- [ ] Check if Ilya can join re: Improbable Lottery application
+- [ ] Open shout-out for anyone interested in incentives/economics input
+
+## Software Sprint and HomeLab Network
+
+_Source: [Voice Transcript](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Software-Sprint-And-HomeLab-Network.md)_
+
+- [ ] Propose a software sprint for the week of 2026-03-23
+- [ ] Focus on agentic-first / Spectra-driven / community-driven development
+- [ ] David to port his software to the Spectra development workflow
+- [ ] Connect 3–4 home labs into a peer-to-peer network
+- [ ] Shout-out for anyone with a home lab to join
+- [ ] Focus area: audio/visual processing and agentic coding of transformations
+- [ ] Check if Mitch is available for the sprint week
+- [ ] Coordinate with OASIS team
