@@ -53,7 +53,7 @@ The dual-agent model (Protector and Actor) ensures structural privacy: one agent
 
 Individuals form groups with radical simplicity — in a coffee shop, at a community center, anywhere. Forming a circle is as easy as starting a conversation. Standard agreements are immediately in place — already legally solid on the back end, both human-readable and machine-readable, modifiable locally but not subordinate to any legacy institution.
 
-These circles nest fractally: individuals → circles → communities of ~10,000 → bioregions → the 42 regions → Earth → and extending into whatever federations may exist beyond.
+These circles nest fractally: individuals → circles → communities of ~10,000 → bioregions → the 42 regions → Earth → and reaching outward towards whatever federations may exist beyond.
 
 ### Dual Encoding: Human + Machine
 
