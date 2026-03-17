@@ -36,6 +36,7 @@ A structured planning sprint for discovery, stakeholder alignment, and strategic
 
 ## Projects
 
+- [[The-Fabulous-Machine]] — Earth's New Operating System — holofractal, sovereign, playful
 - [[Pan-Galactic-Timebank]] — Time bank + dynamic equity on OASIS
 
 ## Sprint Workflow
