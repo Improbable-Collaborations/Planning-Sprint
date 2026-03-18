@@ -48,6 +48,7 @@ The rhythm of the year — recurring dates that build tradition.
 
 | Date         | Event                         | Theme                            |
 | ------------ | ----------------------------- | -------------------------------- |
+| 19–25 April  | **Earth Week**                | Sustained participation window   |
 | 22 April     | Earth Day                     | Launch / RSA London              |
 | 23 April     | World Book Day                | Guide reveals, publishing        |
 | 25 May       | Towel Day                     | Global activation, first contact |
@@ -58,6 +59,65 @@ The rhythm of the year — recurring dates that build tradition.
 | 21 December  | Winter Solstice               | Retrospective, planning          |
 
 Each 42-day Quest cycle aligns two cycles per season.
+
+### Earth Week (19–25 April 2026)
+
+_Source: [David's Federated Wiki — Earth Week](https://david.pod.fab.fish/view/welcome-visitors/view/earth-week)_
+
+Earth Week is an informal but widely used global observance period surrounding Earth Day (22 April). It extends the single-day focus into a multi-day programme of education, volunteering, creativity, and civic action. It has become a flexible global container used by schools, cities, universities, NGOs, and community groups to coordinate sustainability activities.
+
+Earth Day is described as the world's largest civic event, mobilising over a billion people annually. Earth Week expands that impact through sustained participation rather than single-day gestures.
+
+**Why Earth Week matters for Hitchhikers:**
+
+Earth Week is particularly well suited to human-scale cultural places because it is:
+- Modular and locally adaptable
+- Friendly to schools and families
+- Compatible with arts programming
+- Globally recognisable
+
+It offers a credible entry point into planetary conversation while retaining a distinctly local cultural voice.
+
+**Related observances in the same week:**
+- 22 April — Earth Day (our RSA London launch)
+- 23 April — World Book and Copyright Day (guide reveals)
+- 21 April — World Creativity and Innovation Day
+- April Peace Week overlaps
+
+**Common Earth Week formats worldwide:**
+- Tree planting and habitat restoration
+- Community clean-ups
+- Climate education programmes
+- Youth innovation challenges
+- Art and creativity campaigns
+- Public pledges and petitions
+
+**Opportunities for Hitchhikers / Book Towns / Cultural Hubs:**
+- Story-based environmental engagement
+- Literary climate salons
+- Youth imagination workshops
+- Cross-town exchanges
+- Connecting ecological awareness with the Fabulous Machine vision
+
+**2026 themed activity:** Chemists Celebrate Earth Week 2026 (19–25 April) — theme: _Into the Woods with Chemistry_
+
+**Emerging 2026 themes across global Earth Week events:**
+- Volunteering and local action
+- Artists and creative engagement
+- Youth education and next-generation focus
+- Community events and public mobilisation
+- Shift from awareness-only campaigns toward participatory climate culture
+
+**Strategic significance for our launch:**
+
+Earth Week occupies a powerful niche:
+- Globally recognised anchor (Earth Day)
+- Flexible participation model
+- Strong youth engagement potential
+- High compatibility with creativity and education sectors
+- Natural alignment with peace and cooperation themes
+
+Within the Fabulous Machine framing, Earth Week naturally becomes the substrate moment where ecological awareness grounds the more symbolic work that follows.
 
 ---
 
@@ -127,15 +187,19 @@ The moment someone encounters Hitchhikers for the first time. This is not onboar
 
 ## 5. Roadmap and Milestones
 
-### Now → Earth Day (22 April)
+### Now → Earth Week (19–25 April)
 - [ ] Document event methodology (this document)
-- [ ] Confirm RSA London booking
-- [ ] Identify 3–5 locations for connected Earth Day event
+- [ ] Confirm RSA London booking (22 April)
+- [ ] Identify 3–5 locations for connected Earth Week events
 - [ ] Produce materials: what do attendees see/receive?
 - [ ] Gustav to facilitate?
 - [ ] Test audio routing between at least 3 locations
 - [ ] Recruit local hosts for each location
 - [ ] Budget requirements
+- [ ] Plan Earth Week as a sustained multi-day programme, not just a single-day event
+- [ ] Connect with existing Earth Week activity networks (schools, universities, NGOs) in each location
+- [ ] Design youth/family-friendly programming for Earth Week window
+- [ ] Coordinate with World Book Day (23 April) for guide reveals alongside Earth Day launch
 
 ### Earth Day → Towel Day (25 May)
 - [ ] Run Earth Day as first milestone event
@@ -256,4 +320,4 @@ _Awaiting transcript._
 - [The Fabulous Machine](../The-Fabulous-Machine/The-Fabulous-Machine.md) — the vision this serves
 - [Documentation Sprint Areas](../../04-Artifacts/Working-Documents/Documentation-Sprint-Areas.md) — workstream #3
 - [Gustav Workshop Brief](Workshop-Brief-For-Gustav-27March.md) — facilitation model
-- [Micky transcript](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-17_Impromptu-Zoom-Micky-Melbourne.md) — events discussion, chicken-and-egg, 42 hitchhikers concept
+- [Micky transcript](2026-03-17_Micky-Melbourne-Graham.md) — events discussion, chicken-and-egg, 42 hitchhikers concept
