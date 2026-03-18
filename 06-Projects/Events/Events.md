@@ -240,6 +240,12 @@ _Awaiting input._
 
 **Key points:** Street busking as first contact; travel-inspired book concept; new social media ideas; attending Atlas's Melbourne event Saturday; Sunday call booked with David.
 
+### David
+_Awaiting input._
+
+### Dana
+_Awaiting input._
+
 ### Hank (from call 2026-03-18)
 _Awaiting transcript._
 
