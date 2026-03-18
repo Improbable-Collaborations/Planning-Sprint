@@ -7,13 +7,22 @@
 ## 1. Types of Events
 
 ### First Contact (Street)
-Engaging people who have never heard of us — in the street, in public spaces, spontaneously. The alien arrives. The hitchhiker appears. A moment of curiosity that opens a door.
+How do we engage people who have never heard of us — in the street, in public spaces, spontaneously. The alien arrives. The hitchhiker appears. A moment of curiosity that opens a door.
 
-- Street performance and open world theatre
-- Pop-up installations
+Is there the one introduction we all share? 
+
+Or is it adapted to the listener?
+
+Forms that first contact might take in person
+
+- Street performance and open world theatre (Atlas)
+- Pop-up installations in public spaces
 - Guerrilla guides — handing out or revealing unexpected content in public
 - Earth Review moments (#EarthReview)
 - Towel Day activations
+- ...
+- ...
+- ...
 
 ### Gatherings (In-Person Venues)
 Structured events in spaces — cafés, community centres, galleries, farms, the RSA.
@@ -37,16 +46,16 @@ Multiple locations linked live — the decentralised event model.
 ### Milestone Events (Annual Calendar)
 The rhythm of the year — recurring dates that build tradition.
 
-| Date | Event | Theme |
-|------|-------|-------|
-| 22 April | Earth Day | Launch / RSA London |
-| 23 April | World Book Day | Guide reveals, publishing |
-| 25 May | Towel Day | Global activation, first contact |
-| 21 June | Summer Solstice | Celebration, music, outdoor |
-| 4 July | Galactic Independence Day | Constitution writing, AGM |
-| 12 August | Eclipse (Catalonia 2026) | Special location event |
-| Late Aug/Sep | Burning Man / start of term | Tech community, hackathons |
-| 21 December | Winter Solstice | Retrospective, planning |
+| Date         | Event                         | Theme                            |
+| ------------ | ----------------------------- | -------------------------------- |
+| 22 April     | Earth Day                     | Launch / RSA London              |
+| 23 April     | World Book Day                | Guide reveals, publishing        |
+| 25 May       | Towel Day                     | Global activation, first contact |
+| 21 June      | Summer Solstice               | Celebration, music, outdoor      |
+| 4 July       | Galactic Inter-dependence Day | Constitution writing, AGM        |
+| 12 August    | Eclipse (Catalonia 2026)      | Special location event           |
+| Late Aug/Sep | Burning Man / start of term   | Tech community, hackathons       |
+| 21 December  | Winter Solstice               | Retrospective, planning          |
 
 Each 42-day Quest cycle aligns two cycles per season.
 
@@ -71,7 +80,7 @@ Each 42-day Quest cycle aligns two cycles per season.
 ## 3. How We Run Events
 
 ### Street (First Contact)
-- Small team (pod of 6), costumes optional, towels mandatory
+- Small team (pod of 6?), costumes optional, towels mandatory
 - A simple hook: a question, a game, a moment of absurdity
 - Capture: photo, short video, voice note — feeds the guide and the broadcast
 - Leave something behind: a card, a QR code, an invitation to the next gathering
@@ -123,8 +132,10 @@ The moment someone encounters Hitchhikers for the first time. This is not onboar
 - [ ] Confirm RSA London booking
 - [ ] Identify 3–5 locations for connected Earth Day event
 - [ ] Produce materials: what do attendees see/receive?
+- [ ] Gustav to facilitate?
 - [ ] Test audio routing between at least 3 locations
 - [ ] Recruit local hosts for each location
+- [ ] Budget requirements
 
 ### Earth Day → Towel Day (25 May)
 - [ ] Run Earth Day as first milestone event
@@ -188,16 +199,16 @@ _As embassies form, each documents their local partner landscape here._
 
 ## 7. Who Does What
 
-| Role | Current | Notes |
-|------|---------|-------|
-| Event strategy | David | Overall vision and methodology |
-| Event coordination | Graham | Logistics, scheduling, documentation |
-| Facilitation | Gustav | Workshop design and facilitation |
-| Street / immersive | Atlas, Micky | Open world theatre, first contact |
-| Audio / broadcast | David | Live routing, pirate radio, soundscape |
-| Tech / streaming | TBD | Platform setup, recording |
-| Local hosts | Per location | Each embassy provides |
-| Documentation | Graham + Claude | Transcripts, action points, learnings |
+| Role               | Current                        | Notes                                  |
+| ------------------ | ------------------------------ | -------------------------------------- |
+| Event strategy     | David                          | Overall vision and methodology         |
+| Event coordination | Graham                         | Logistics, scheduling, documentation   |
+| Facilitation       | Gustav                         | Workshop design and facilitation       |
+| Street / immersive | Atlas, Micky                   | Open world theatre, first contact      |
+| Audio / broadcast  | David / Graham / Other HomeLab | Live routing, pirate radio, soundscape |
+| Tech / streaming   | TBD                            | Platform setup, recording              |
+| Local hosts        | Per location                   | Each embassy provides                  |
+| Documentation      | Graham + Claude                | Transcripts, action points, learnings  |
 
 ---
 
@@ -217,6 +228,18 @@ _Awaiting input._
 ### Nitin
 _Awaiting input._
 
+### Micky (WhatsApp, 2026-03-18)
+
+> Very cool Atlas! Excited to see your project evolve. Had a great chat with Graham last night that ignited inspiration for some ideas I've been sitting on around a travel inspired book tapping into the magic of humans, and also new forms of social media that are actually social in the true sense of the word and help us grow as humans. Grateful for these moments.
+>
+> On a theatrical level I'm keen to hit the streets more with some busking, as being on that ground level of the melting pot of humanity is a very inspiring space for me. Also hoping to make Atlas' event on Saturday here in Melbourne.
+>
+> Have booked in a Sunday chat with David too and looking forward to going a bit deeper there and hearing about your vision David.
+>
+> Hope everyone is feeling inspired and hopeful about how we can use our creativity to help make the world a better place
+
+**Key points:** Street busking as first contact; travel-inspired book concept; new social media ideas; attending Atlas's Melbourne event Saturday; Sunday call booked with David.
+
 ### Hank (from call 2026-03-18)
 _Awaiting transcript._
 
@@ -226,5 +249,5 @@ _Awaiting transcript._
 
 - [The Fabulous Machine](../The-Fabulous-Machine/The-Fabulous-Machine.md) — the vision this serves
 - [Documentation Sprint Areas](../../04-Artifacts/Working-Documents/Documentation-Sprint-Areas.md) — workstream #3
-- [Gustav Workshop Brief](../../03-Meetings/Working-Sessions/2026-03-27_Stakeholder-Mapping/Workshop-Brief-For-Gustav.md) — facilitation model
+- [Gustav Workshop Brief](Workshop-Brief-For-Gustav-27March.md) — facilitation model
 - [Micky transcript](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-17_Impromptu-Zoom-Micky-Melbourne.md) — events discussion, chicken-and-egg, 42 hitchhikers concept
