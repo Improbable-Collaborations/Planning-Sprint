@@ -15,3 +15,8 @@
 - [ ] Compile 10–12 "dumbass questions" about Mitch's identity/privacy work; share with David and Mitch — _Mar 17 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-17_David-Mitch-Graham-Identity-Privacy-Trust.md)_
 - [ ] Poll other team members for their questions about agent privacy — _Mar 17 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-17_David-Mitch-Graham-Identity-Privacy-Trust.md)_
 - [x] Process David-Mitch-Graham Fathom transcript into the repo — _Mar 17 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-17_David-Mitch-Graham-Identity-Privacy-Trust.md)_
+- [ ] Schedule next call with Hank: Tuesday 25 March, 1:30 PM — send Zoom link — _Mar 18 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-18_Hank-Graham-Imagination-IV.md)_
+- [ ] Interview Atlas about street engagement methodology and Daredevil Da Vinci character — _Mar 18 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-18_Hank-Graham-Imagination-IV.md)_
+- [ ] Research case studies of imagination-led community change for Guide to the Imagination — _Mar 18 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-18_Hank-Graham-Imagination-IV.md)_
+- [ ] Plan online coordination role for Earth Day / Creative Week (22–23 April) — _Mar 18 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-18_Hank-Graham-Imagination-IV.md)_
+- [ ] Share Steve Murphy's city songs concept with wider team — _Mar 18 · [source](../../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-18_Hank-Graham-Imagination-IV.md)_
