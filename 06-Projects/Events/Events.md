@@ -46,17 +46,26 @@ Multiple locations linked live — the decentralised event model.
 ### Milestone Events (Annual Calendar)
 The rhythm of the year — recurring dates that build tradition.
 
-| Date         | Event                         | Theme                            |
-| ------------ | ----------------------------- | -------------------------------- |
-| 19–25 April  | **Earth Week**                | Sustained participation window   |
-| 22 April     | Earth Day                     | Launch / RSA London              |
-| 23 April     | World Book Day                | Guide reveals, publishing        |
-| 25 May       | Towel Day                     | Global activation, first contact |
-| 21 June      | Summer Solstice               | Celebration, music, outdoor      |
-| 4 July       | Galactic Inter-dependence Day | Constitution writing, AGM        |
-| 12 August    | Eclipse (Catalonia 2026)      | Special location event           |
-| Late Aug/Sep | Burning Man / start of term   | Tech community, hackathons       |
-| 21 December  | Winter Solstice               | Retrospective, planning          |
+_Source: [David's Federated Wiki — Annual Cycle](https://david.vision.fish/view/annual-cycle)_
+
+**The Narrative Arc:** The annual calendar follows a story arc where Earth is destroyed on November 5th (symbolising failure of old governance models), restored from backup with a hopeful vision during Groundhog Day, and fully relaunched on Earth Day. Finally we celebrate with a global gathering each summer on July 4th.
+
+| Season | Date | Event | Theme |
+| ------ | ---- | ----- | ----- |
+| **Spring** | 19–25 April | **Earth Week / Peace Week** | Sustained participation window |
+| | 21 April | World Creativity Day | Creative launch |
+| | 22 April | **Earth Day** | Launch / RSA London |
+| | 23 April | World Book Day (Sant Jordi) | Guide reveals, publishing, roses & dragons |
+| | 24 April | Day of Multilateralism & Diplomacy for Peace | Cooperation between nations |
+| | 25 April | World Penguin Day | Biodiversity, family weekend programming |
+| | 25 May | **Towel Day** | Global activation, first contact |
+| **Summer** | 21 June | Summer Solstice | Celebration, music, outdoor |
+| | 4 July | **The AGM** — Galactic Inter-dependence Day | Constitution writing, prizes, summer schools |
+| | 12 August | Eclipse (Catalonia 2026) | Special location event |
+| | Late Aug/Sep | **Trowel Day** — Start of term | Start building; hackathons, tech community |
+| **Autumn** | 5 November | **Demolition Day** | Demolition, democracy, and doom |
+| **Winter** | 21 December | Winter Solstice | Retrospective, planning |
+| | 2 February | **Groundhog Day** | Reboot Earth — restored from backup |
 
 Each 42-day Quest cycle aligns two cycles per season.
 
@@ -144,6 +153,124 @@ Earth Week occupies a powerful niche:
 - Natural alignment with peace and cooperation themes
 
 Within the Fabulous Machine framing, Earth Week naturally becomes the substrate moment where ecological awareness grounds the more symbolic work that follows.
+
+### Peace Week (21–24 April)
+
+_Source: [David's Federated Wiki — Peace Week](https://david.pod.fab.fish/view/welcome-visitors/view/peace-week)_
+
+April Peace Week is a proposed lightweight civic and cultural observance that clusters several existing international moments into a coherent springtime arc of **Planet → Stories → Peace**.
+
+The design intentionally builds on existing global observances rather than competing with them.
+
+**Calendar anchor points (2026):**
+- Tuesday 21 April — World Creativity Day
+- Wednesday 22 April — Earth Day / International Mother Earth Day (planetary stewardship)
+- Thursday 23 April — World Book Day / Sant Jordi / St George's Day (stories, literacy, symbolic dragons)
+- Friday 24 April — International Day of Multilateralism and Diplomacy for Peace (formal cooperation)
+
+**Core framing:** "Detoxifying nationalism through play." The approach emphasises:
+- Shared cultural rituals
+- Local creative participation
+- Ecologically grounded activities
+- Cross-border story exchange
+- Gentle symbolic acts (books, roses, planting)
+
+"Durable peace cultures grow more easily from shared human practices than from declarations alone."
+
+**Roses & Dragons framework:**
+- Roses represent human connection and care
+- Dragons represent community challenges
+- Soil and worms represent renewal's living substrate
+- Stories bridge fear and cooperation
+
+**Typical programme elements:**
+Earth care activities, creative writing, book exchange, youth dialogue, Naming Dragons workshops, cross-city story sharing, public rituals (planting, roses, readings).
+
+**Global peace calendar position:**
+April Peace Week complements September's International Day of Peace. April emphasises cultural, playful, grassroots approaches versus the formal, institutional September events.
+
+**Strategic advantages:**
+- Builds on globally recognised days
+- Bridges environmental and civic work
+- Engages families
+- Works for book towns and libraries
+- Scales through federated participation
+- Avoids heavy geopolitical framing
+- Creates runway toward 22 May International Day for Biological Diversity
+
+### World Penguin Day (25 April)
+
+_Source: [David's Federated Wiki — World Penguin Day](https://david.pod.fab.fish/view/welcome-visitors/view/world-penguin-day)_
+
+World Penguin Day is observed annually on 25 April, marked by distributed public, zoo, aquarium, education, and conservation events worldwide. The date connects to seasonal Adélie penguin movements tracked by Antarctic researchers.
+
+In 2026, 25 April falls on a **Saturday** — enabling weekend family programming immediately following the Earth Week / Peace Week window (21–24 April).
+
+**Common formats:**
+- Live penguin feedings and keeper talks at zoos and aquariums
+- Behind-the-scenes habitat tours
+- Conservation briefings on climate and ocean health
+- Classroom "adopt a penguin" projects and STEM activities
+- Children's illustration competitions
+- Polar-themed storytelling and library events
+- #WorldPenguinDay social campaigns
+
+**Why it matters for Hitchhikers:**
+
+World Penguin Day offers a practical **weekend biodiversity bridge** immediately after the Peace Week programming. It is naturally child-friendly, connects to climate storytelling, and provides a lighter, more playful close to an intense week of events. UK primary schools already integrate penguin activities into late-April Earth Day programming.
+
+### The Annual Cycle — Narrative Arc
+
+_Source: [David's Federated Wiki — Annual Cycle](https://david.vision.fish/view/annual-cycle)_
+
+We imagine an annual cycle of participatory global events for Hitchhikers.earth, where a decentralised community collaborates to re-enact the destruction and eventual rebooting of Earth as a metaphor for constitutional and societal transformation.
+
+The annual calendar is structured around four anchor dates:
+
+| Season | Milestone | Theme |
+|--------|-----------|-------|
+| Autumn | **Demolition Day** (5 November) | Celebrating doom-and-gloom |
+| Winter | **Groundhog Day** (2 February) | Rebooting Earth |
+| Spring | **Hitchhiker Day** / Earth Day (22 April) | Planting hope |
+| Summer | **The AGM** (4 July) | Gathering, prizes, summer schools |
+
+And we aim to start the process of building on:
+- **Trowel Day** (start of term, late Aug/Sep) — where we start building
+
+The events follow a narrative arc where Earth is eventually destroyed on November 5th — symbolising failure of old governance models — then restored from backup with a hopeful vision during Groundhog Day, and fully relaunched on Earth Day. Finally we celebrate with a global gathering each summer on July 4th, where we award prizes, kick off summer schools, and launch Improbable Experiences.
+
+### Demolition Day (5 November)
+
+_Source: [David's Federated Wiki — Demolition Day](https://david.vision.fish/view/demolition-day)_
+
+> "Autumn is a dark season. What better day could we choose for fireworks, the destruction of Earth, or an election?"
+
+Standing for **demolition, democracy, and doom** — where we celebrate the Destruction of Earth by the Vogons (and other causes).
+
+November 5th has a number of equally significant corollaries:
+- Dooms Day
+- Fireworks Day (Guy Fawkes Night)
+- US General Election (in election years)
+
+**Milestone target:** By Demolition Day, we should have built the basic elements of our legal and technical infrastructure that we put to the vote at The AGM in July. This will include a fully functional:
+- Intergalactic Timebank
+- Improbable Lottery
+- Crowd Funding Campaign
+
+### Astral Calendar — Event Management Methodology
+
+_Source: [David's Federated Wiki — Astral Calendar](https://transcript.myth.garden/view/astral-calendar)_
+
+Calendar management is described as "a critical strategic skill" — one of the most important we need to master. It serves multiple purposes beyond administrative organisation.
+
+The organisation operates voyages as event clusters requiring clear communication and organisation, inclusive of both online and offline activities. We aspire to be a **meta event organiser** — meaning we aim to train others in our unique methodology of organising events. The voyaging methodology should be duplicable across different ships (embassies).
+
+**Team roles in calendar management:**
+- The captain outlines strategic importance
+- The navigator researches calendaring platforms
+- The engineer considers implementation feasibility
+- The cook builds team training
+- Calendar responsibility could rest with the navigator or the engineer, or be given to another role
 
 ---
 
@@ -233,15 +360,31 @@ The moment someone encounters Hitchhikers for the first time. This is not onboar
 - [ ] Scale up: aim for more locations on Towel Day
 - [ ] Begin street activations (first contact practice)
 
-### Towel Day → July 4th
+### Towel Day → The AGM (4 July)
 - [ ] First attempt at 42-location connected event
 - [ ] Constitutional writing workshops
 - [ ] Annual Galactic Meeting (AGM) format designed
+- [ ] Summer schools programme planned
+- [ ] Improbable Experiences designed as prizes
+
+### The AGM → Demolition Day (5 November)
+- [ ] Build Intergalactic Timebank to functional state
+- [ ] Launch Improbable Lottery
+- [ ] Prepare Crowd Funding Campaign
+- [ ] Put legal and technical infrastructure to the vote
+- [ ] Trowel Day (start of term) — begin building season
+
+### Demolition Day → Groundhog Day (2 February)
+- [ ] Celebrate the Destruction of Earth (fireworks, democracy, doom)
+- [ ] Winter Solstice retrospective and planning (21 December)
+- [ ] Groundhog Day — reboot Earth, restored from backup with hopeful vision
 
 ### Ongoing
 - [ ] Build event-in-a-box: everything a local host needs to run a Hitchhiker event
 - [ ] Train facilitators
 - [ ] Document and share each event's learnings
+- [ ] Master calendar management as a strategic skill (Astral Calendar methodology)
+- [ ] Train embassies to replicate event methodology (meta event organiser approach)
 
 ---
 
@@ -330,8 +473,16 @@ _Awaiting input._
 
 **Key points:** Street busking as first contact; travel-inspired book concept; new social media ideas; attending Atlas's Melbourne event Saturday; Sunday call booked with David.
 
-### David
-[http://david.pod.fab.fish/view/welcome-visitors/view/davids-activity/view/earth-week/view/peace-week/view/search-for-week/view/world-penguin-day/david.vision.fish/hitchhiker-seasons/david.vision.fish/demolition-day/transcript.myth.garden/astral-calendar/david.vision.fish/annual-cyclepush
+### David (Federated Wiki research, 2026-03-18)
+David researched and documented the annual event calendar across his federated wiki sites. Content has been integrated into sections above:
+- [Earth Day](https://david.pod.fab.fish/view/welcome-visitors/view/earth-day) — origins, history, Paris Agreement
+- [Earth Week](https://david.pod.fab.fish/view/welcome-visitors/view/earth-week) — formats, strategic significance
+- [Peace Week](https://david.pod.fab.fish/view/welcome-visitors/view/peace-week) — Planet → Stories → Peace arc, Roses & Dragons
+- [World Penguin Day](https://david.pod.fab.fish/view/welcome-visitors/view/world-penguin-day) — biodiversity weekend bridge
+- [Annual Cycle](https://david.vision.fish/view/annual-cycle) — narrative arc: Demolition → Groundhog → Earth Day → AGM
+- [Demolition Day](https://david.vision.fish/view/demolition-day) — 5 November milestone targets
+- [Hitchhiker Seasons](https://david.vision.fish/view/hitchhiker-seasons) — seasonal timeline (audio transcripts pending)
+- [Astral Calendar](https://transcript.myth.garden/view/astral-calendar) — calendar as strategic skill, meta event organiser methodology
 
 
 
