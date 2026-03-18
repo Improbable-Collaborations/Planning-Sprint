@@ -1,6 +1,8 @@
 # The Fabulous Machine
 
-*An invitation to vibe code Earth's New Operating System*
+*An invitation to weave and vibe code Earth's New Operating System*
+
+*This document is the output of a conversation between the nameless one, max and graham on tuesday 17th march from 0800 to 1000 PT. they initially played a game of now, then focused attention on the concept of the fabulous machine and its use as a metaphor for what we are building at Hitchhikers. the nameless one facilitated the conversation and wrote the words. this was then added to claude code as a prompt. *
 
 ---
 
@@ -41,7 +43,7 @@ The 42-day Quest cycle is not an accident. It draws from both agile best practic
 
 ## Architecture: Holofractal by Design
 
-The Fabulous Machine is holofractal — meaning the same basic pattern repeats at every scale, from the individual to the planetary. A holon is a part that is also a whole. Each level is sovereign. Each level cooperates with the levels above and below. No level subordinates another.
+The Fabulous Machine is holofractal — meaning the same basic pattern repeats at every scale, from the individual to the planetary and beyond. A holon is a part that is also a whole. Each level is sovereign. Each level cooperates with the levels above and below. No level subordinates another.
 
 ### Identity and Sovereignty
 
