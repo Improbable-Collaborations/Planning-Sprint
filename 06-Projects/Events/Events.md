@@ -60,13 +60,39 @@ The rhythm of the year — recurring dates that build tradition.
 
 Each 42-day Quest cycle aligns two cycles per season.
 
+### Earth Day (22 April)
+
+_Source: [David's Federated Wiki — Earth Day](https://david.pod.fab.fish/view/welcome-visitors/view/earth-day)_
+
+Earth Day is an annual event celebrated around the world on 22 April to demonstrate support for environmental protection. First celebrated in 1970, it now includes events coordinated globally by the Earth Day Network in more than 193 countries. It is described as the world's largest civic event, mobilising over a billion people annually.
+
+- **Website:** [earthday.org](https://www.earthday.org)
+
+**Origins:**
+
+In 1969 at a UNESCO Conference in San Francisco, peace activist John McConnell proposed a day to honour the Earth and the concept of peace, to first be celebrated on 21 March 1970 (the first day of spring in the northern hemisphere). This day of nature's equipoise was later sanctioned in a proclamation written by McConnell and signed by UN Secretary General U Thant.
+
+A month later, a separate Earth Day was founded by United States Senator Gaylord Nelson as an environmental teach-in, first held on 22 April 1970. Nelson was later awarded the Presidential Medal of Freedom in recognition of his work.
+
+**International expansion:**
+
+While the April 22 Earth Day was initially focused on the United States, Denis Hayes (the original national coordinator in 1970) took it international in 1990 and organised events in 141 nations.
+
+On Earth Day 2016, the landmark Paris Agreement was signed by the United States, China, and some 120 other countries — satisfying a key requirement for the coming into force of the historic draft agreement adopted by consensus of 195 nations at the 2015 United Nations Climate Change Conference in Paris.
+
+In 2017, the March for Science occurred on Earth Day (22 April 2017), followed by the People's Climate Mobilization (29 April 2017).
+
+**Why Earth Day matters for Hitchhikers:**
+
+Earth Day is our anchor date for the first milestone event — the RSA London launch. Its global recognition, environmental focus, and history of catalysing international cooperation align directly with the Fabulous Machine's vision of planetary-scale coordination. The teach-in origins (Senator Nelson's format) connect naturally to our workshop and first-contact methodology.
+
 ### Earth Week (19–25 April 2026)
 
 _Source: [David's Federated Wiki — Earth Week](https://david.pod.fab.fish/view/welcome-visitors/view/earth-week)_
 
-Earth Week is an informal but widely used global observance period surrounding Earth Day (22 April). It extends the single-day focus into a multi-day programme of education, volunteering, creativity, and civic action. It has become a flexible global container used by schools, cities, universities, NGOs, and community groups to coordinate sustainability activities.
+Earth Week extends Earth Day's single-day focus into a multi-day programme of education, volunteering, creativity, and civic action. It has become a flexible global container used by schools, cities, universities, NGOs, and community groups to coordinate sustainability activities.
 
-Earth Day is described as the world's largest civic event, mobilising over a billion people annually. Earth Week expands that impact through sustained participation rather than single-day gestures.
+Earth Week expands Earth Day's impact through sustained participation rather than single-day gestures.
 
 **Why Earth Week matters for Hitchhikers:**
 
@@ -305,13 +331,15 @@ _Awaiting input._
 **Key points:** Street busking as first contact; travel-inspired book concept; new social media ideas; attending Atlas's Melbourne event Saturday; Sunday call booked with David.
 
 ### David
-_Awaiting input._
+[http://david.pod.fab.fish/view/welcome-visitors/view/davids-activity/view/earth-week/view/peace-week/view/search-for-week/view/world-penguin-day/david.vision.fish/hitchhiker-seasons/david.vision.fish/demolition-day/transcript.myth.garden/astral-calendar/david.vision.fish/annual-cycle
+
+
 
 ### Dana
 _Awaiting input._
 
 ### Hank (from call 2026-03-18)
-_Awaiting transcript._
+See [Imagination IV transcript](../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-18_Hank-Graham-Imagination-IV.md) — key themes: "they don't know how to do the future", fermentation as metaphor for cultural change, the invitation and the gift, futures salons, community self-empowerment (Morocco mudslides, Andros wind turbines), city songs concept.
 
 ---
 
