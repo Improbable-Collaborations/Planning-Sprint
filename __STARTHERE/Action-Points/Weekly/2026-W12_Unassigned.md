@@ -6,10 +6,10 @@ Items needing an owner. Claim them by moving to your weekly file.
 
 ### From Didac call (Mar 15)
 
-- [ ] Plan visit to Didac in La Garrotxa in April (before he rents the property) — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-15_Hitchhiking-David-Graham-Didac.md)_
-- [ ] Explore collective publishing model for Didac's novel series — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-15_Hitchhiking-David-Graham-Didac.md)_
-- [ ] Research eclipse event opportunity — 12 August 2026 in Catalonia — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-15_Hitchhiking-David-Graham-Didac.md)_
-- [ ] Connect Didac's anarchist history research with Hitchhiker's constitutional narrative — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-15_Hitchhiking-David-Graham-Didac.md)_
+- [ ] Plan visit to Didac in La Garrotxa in April (before he rents the property) — _[source](2026-03-15_Hitchhiking-David-Graham-Didac.md)_
+- [ ] Explore collective publishing model for Didac's novel series — _[source](2026-03-15_Hitchhiking-David-Graham-Didac.md)_
+- [ ] Research eclipse event opportunity — 12 August 2026 in Catalonia — _[source](2026-03-15_Hitchhiking-David-Graham-Didac.md)_
+- [ ] Connect Didac's anarchist history research with Hitchhiker's constitutional narrative — _[source](2026-03-15_Hitchhiking-David-Graham-Didac.md)_
 
 ### From David's voice messages (Mar 16)
 
@@ -31,13 +31,13 @@ Items needing an owner. Claim them by moving to your weekly file.
 
 ### From Gustav call (Mar 16)
 
-- [ ] Plan RSA London event for 22–23 April (Earth Day / World Book Day) — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Budget the workshop/visualisation production for summer event — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Scope three stakeholder maps: community, financial, technical — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Plan RSA London event for 22–23 April (Earth Day / World Book Day) — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Budget the workshop/visualisation production for summer event — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Scope three stakeholder maps: community, financial, technical — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
 
 ### From Micky call (Mar 17)
 
-- [ ] Explore Micky's "42 hitchhikers on a quest" concept as a documentary/podcast project — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-17_Impromptu-Zoom-Micky-Melbourne.md)_
-- [ ] Consider Melbourne as one of the 42 global embassy locations — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-17_Impromptu-Zoom-Micky-Melbourne.md)_
-- [ ] Connect Micky with the events methodology discussion (Friday session) — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-17_Impromptu-Zoom-Micky-Melbourne.md)_
-- [ ] Earth Day event (22 April) — explore what Australia can contribute during its daytime hours — _[source](../../../02-Interviews/Notes/Fathom-Transcripts/2026-03-17_Impromptu-Zoom-Micky-Melbourne.md)_
+- [ ] Explore Micky's "42 hitchhikers on a quest" concept as a documentary/podcast project — _[source](2026-03-17_Micky-Melbourne-Graham.md)_
+- [ ] Consider Melbourne as one of the 42 global embassy locations — _[source](2026-03-17_Micky-Melbourne-Graham.md)_
+- [ ] Connect Micky with the events methodology discussion (Friday session) — _[source](2026-03-17_Micky-Melbourne-Graham.md)_
+- [ ] Earth Day event (22 April) — explore what Australia can contribute during its daytime hours — _[source](2026-03-17_Micky-Melbourne-Graham.md)_

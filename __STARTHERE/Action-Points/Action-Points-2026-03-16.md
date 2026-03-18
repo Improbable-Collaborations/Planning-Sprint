@@ -14,22 +14,22 @@ Extracted from David Bovill's Signal and Telegram voice messages, and Fathom tra
 - [ ] Confirm with Robbie regarding Hitchhiker IP transfer compatibility — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Improbable-Branding-Strategy.md)_
 - [ ] Introduce Harish at the Thursday session — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Planning-Week-And-Timebank-Session.md)_
 - [ ] Port his software to the Spectra development workflow — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Software-Sprint-And-HomeLab-Network.md)_
-- [ ] Send Gustav a document defining desired outputs from community mapping by Friday 21 March — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Prepare detailed vision/plan documentation this week for Gustav to review — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Send Gustav a document defining desired outputs from community mapping by Friday 21 March — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Prepare detailed vision/plan documentation this week for Gustav to review — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
 
 ## Gustav
 
-- [ ] Facilitate follow-up stakeholder mapping session on Friday 27 March at 3pm GMT — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Respond to David's document with a facilitation plan early week of 24 March — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Join the theatre/education/games group on 27 March to meet the team — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Message David on WhatsApp after retreat weekend to continue planning — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Facilitate follow-up stakeholder mapping session on Friday 27 March at 3pm GMT — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Respond to David's document with a facilitation plan early week of 24 March — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Join the theatre/education/games group on 27 March to meet the team — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Message David on WhatsApp after retreat weekend to continue planning — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
 
 ## Graham
 
 - [ ] Receive Fathom email links from David and process them — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Fathom-Videos-And-Automation.md)_
 - [ ] Check if Ilya can join Thursday re: Improbable Lottery — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Planning-Week-And-Timebank-Session.md)_
-- [ ] Organise and send Gustav the notes from the Fathom call — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Integrate stakeholder mapping into this week's documentation — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [x] Organise and send Gustav the notes from the Fathom call — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [x] Integrate stakeholder mapping into this week's documentation — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
 
 ## Max
 
@@ -52,6 +52,6 @@ Extracted from David Bovill's Signal and Telegram voice messages, and Fathom tra
 - [ ] Focus area: audio/visual processing and agentic coding of transformations — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Software-Sprint-And-HomeLab-Network.md)_
 - [ ] Check if Mitch is available for the sprint week — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Software-Sprint-And-HomeLab-Network.md)_
 - [ ] Coordinate with OASIS team — _[source](../../05-Communications/Voice-Transcripts/2026-03-16_David-Bovill_Software-Sprint-And-HomeLab-Network.md)_
-- [ ] Plan RSA London event for 22–23 April (Earth Day / World Book Day) — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Budget the workshop/visualisation production for summer event — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
-- [ ] Scope three stakeholder maps: community, financial, technical — _[source](../../02-Interviews/Notes/Fathom-Transcripts/2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Plan RSA London event for 22–23 April (Earth Day / World Book Day) — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Budget the workshop/visualisation production for summer event — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_
+- [ ] Scope three stakeholder maps: community, financial, technical — _[source](2026-03-16_Hitchhiking-Gustav-Stromfelt.md)_

@@ -331,7 +331,7 @@ _Awaiting input._
 **Key points:** Street busking as first contact; travel-inspired book concept; new social media ideas; attending Atlas's Melbourne event Saturday; Sunday call booked with David.
 
 ### David
-[http://david.pod.fab.fish/view/welcome-visitors/view/davids-activity/view/earth-week/view/peace-week/view/search-for-week/view/world-penguin-day/david.vision.fish/hitchhiker-seasons/david.vision.fish/demolition-day/transcript.myth.garden/astral-calendar/david.vision.fish/annual-cycle
+[http://david.pod.fab.fish/view/welcome-visitors/view/davids-activity/view/earth-week/view/peace-week/view/search-for-week/view/world-penguin-day/david.vision.fish/hitchhiker-seasons/david.vision.fish/demolition-day/transcript.myth.garden/astral-calendar/david.vision.fish/annual-cyclepush
 
 
 
