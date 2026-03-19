@@ -1,4 +1,4 @@
-# Hitchhiker Events
+C# Hitchhiker Events
 
 *First contact with the culture, and an invitation into the Fabulous Machine*
 
@@ -449,8 +449,48 @@ _As embassies form, each documents their local partner landscape here._
 
 _This section captures input from team members as it comes in. Each contribution is attributed and timestamped._
 
-### Nicole
-_Awaiting input._
+### Nicole (Voice Note, 2026-03-19)
+
+> Thank you for reaching out and really exciting to see this taking shape. Let me share some thoughts on the work I'm currently doing.
+
+**Events & Milestones — integrating, not building from scratch:**
+
+Nicole sees strong potential in connecting the Hitchhiker community to existing global and regional moments rather than creating everything new. Her projects are interlinked, with a strong thematic anchor around **water, diplomacy and regeneration**:
+
+- **Blue Peace Festival** — organising with her social design students in Berlin, June 2026
+- **Alliance for Youth-Led Futures** — co-organising events for **COP31 in Antalya, Turkey**. Currently 35 youth organisations and foundations in the alliance. Potential for visibility, policy alignment, and partnerships
+- **Erasmus+ application (with Inger-Mette)** — *Water Futures: Hitchhiking to the Blue Planet*. Multi-year backbone for youth-led exchanges on water
+- **Dessau University** — invited back as guest professor (winter semester) for Integrated Design. Proposes a 4–5 month practice-based project with students shaping co-creation lab ideas around the Hitchhiker community — directly linking education with community
+- **Peace and Health Week** — starting April, connected to the Alliance for Youth-Led Futures
+
+> "For me, it's more about a journey across moments and locations rather than a single event series."
+
+**Audiences — youth-led, intergenerational:**
+
+- Students and emerging practitioners
+- Educators and facilitators working in future systems and design
+- Policy and institutional actors (water, climate, urban contexts)
+- Interdisciplinary, transdisciplinary, cross-sector collaborations
+- The Alliance gives younger generations an active role in shaping outcomes
+
+**Content & Logistics — experience-based, participatory:**
+
+- **Hitchhiker's Circles** — less panels, more shared sense-making and prototyping
+- **Co-creation labs** — speculative futures, narrative and immersive approaches where young people co-create
+- Spaces where facilitators can explore how to envision and shape systems and futures experiences
+- Focus on inspiration and behavioural change over measurement and ESG reporting
+
+> "I just came out of a conference on sustainability pathways for universities in Germany — it's all about measurement and ESG reporting. I would rather highlight that for the Hitchhikers this is more on the inspirational, behavioural, and experiential side — creating real-world moments."
+
+**Partnerships & Funding:**
+
+- EU projects (Erasmus+, etc.)
+- University and research institution collaborations
+- Organisations in water and climate space
+- Cultural and artistic platforms
+- Hybrid model: project-based funding from EU/foundations + institutional partners for hosting/infrastructure
+
+**Key points:** Water diplomacy as thematic anchor; Blue Peace Festival Berlin (June); COP31 visibility via Alliance for Youth-Led Futures (35 orgs); Erasmus+ Water Futures bid with Inger-Mette; Dessau guest professorship as education-community bridge; Hitchhiker's Circles as participatory format; experience over measurement.
 
 ### Inger-Mette
 _Awaiting input._
