@@ -526,6 +526,44 @@ David researched and documented the annual event calendar across his federated w
 
 
 
+### Yvette (Written Input, 2026-03-19)
+
+**Events & Milestones:**
+
+Happy with the quarterly events David outlined. Most active with the Douglas Adams community during what she calls the **"Douglas Adams season"** — 11 March through 25 May.
+
+Has not participated in hack weeks or vibe coding events but finds the idea deeply exciting. Same for the Community Congress concept.
+
+> "I imagine they are much like my Quilting Class where each individual makes a particular block that is unique to them, but altogether they make a beautiful blanket that can be shared with someone less fortunate."
+
+Key tension: **"Everybody knows what a quilt looks like. Whereas at the moment, I do not have the technical understanding of what a future H2GE looks like. Therefore, it is hard for me to know how to contribute."**
+
+The sooner we identify the people and organisations to begin on building blocks, the better.
+
+**Yvette's milestone checklist** (the kind of event planning she's used to):
+
+1. Identify date and title/description of event
+2. Identify (temporary) leadership/organisers
+3. Identify audience
+4. Sponsors if funds are needed
+5. Identify location or mode of interaction (if virtual)
+6. Design and send invitations or begin marketing campaigns
+7. Collect RSVPs
+
+**Event types Yvette sees:**
+
+- Constitutional Congress events
+- Vibe Coding events
+- H2GE Launch events
+- H2G2 re-invigoration events
+- Guide Launch events
+- Burning Man
+- Towel Day
+
+**Content & Logistics:** Event-specific — depends on which events are chosen.
+
+**Key points:** Douglas Adams season (Mar 11 – May 25) is her peak window; quilting metaphor for distributed co-creation; needs clearer technical vision of H2GE to know how to contribute; brings structured event planning methodology; content/logistics should follow event selection not precede it.
+
 ### Dana
 _Awaiting input._
 
