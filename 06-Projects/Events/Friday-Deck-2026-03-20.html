@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hitchhiker Events — Friday Session</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Space+Grotesk:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    background: #0a0e1a;
+    color: #e8e6e3;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .slide {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    padding: 60px 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .slide.active { display: flex; flex-direction: column; }
+
+  /* Starfield background */
+  .slide::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background:
+      radial-gradient(1px 1px at 10% 20%, rgba(255,255,255,0.4), transparent),
+      radial-gradient(1px 1px at 30% 70%, rgba(255,255,255,0.3), transparent),
+      radial-gradient(1.5px 1.5px at 50% 10%, rgba(255,255,255,0.5), transparent),
+      radial-gradient(1px 1px at 70% 40%, rgba(255,255,255,0.3), transparent),
+      radial-gradient(1px 1px at 90% 80%, rgba(255,255,255,0.4), transparent),
+      radial-gradient(1.5px 1.5px at 15% 55%, rgba(255,255,255,0.2), transparent),
+      radial-gradient(1px 1px at 85% 15%, rgba(255,255,255,0.3), transparent),
+      radial-gradient(1px 1px at 45% 90%, rgba(255,255,255,0.2), transparent),
+      radial-gradient(1.5px 1.5px at 60% 60%, rgba(255,255,255,0.15), transparent),
+      radial-gradient(1px 1px at 25% 35%, rgba(255,255,255,0.25), transparent);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .slide > * { position: relative; z-index: 1; }
+
+  /* Logo bottom-right */
+  .logo {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    width: 90px;
+    height: 90px;
+    opacity: 0.8;
+    z-index: 2;
+  }
+
+  /* Slide counter */
+  .slide-counter {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    color: rgba(255,255,255,0.3);
+    z-index: 2;
+  }
+
+  /* Navigation hint */
+  .nav-hint {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: rgba(255,255,255,0.15);
+    z-index: 100;
+  }
+
+  /* ===== TITLE SLIDE ===== */
+  .slide-title {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #0a0e1a;
+  }
+
+  .slide-title .hero-image {
+    width: 420px;
+    max-width: 50vw;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 80px rgba(220, 80, 40, 0.3), 0 0 160px rgba(220, 80, 40, 0.1);
+  }
+
+  .slide-title h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.2em;
+    font-weight: 700;
+    background: linear-gradient(135deg, #f5d76e, #f0913a, #e74c3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  .slide-title .subtitle {
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.5);
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+
+  .slide-title .intention {
+    font-size: 1.15em;
+    color: rgba(255,255,255,0.65);
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+
+  .slide-title .intention strong {
+    color: #f0913a;
+  }
+
+  .slide-title .date {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.95em;
+    color: rgba(255,255,255,0.3);
+  }
+
+  /* ===== SECTION SLIDES ===== */
+  .section-header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-header .section-number {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 6em;
+    font-weight: 700;
+    background: linear-gradient(135deg, #f5d76e, #f0913a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .section-header h2 {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+
+  .section-header .section-sub {
+    font-size: 1.2em;
+    color: rgba(255,255,255,0.4);
+    max-width: 600px;
+  }
+
+  /* ===== CONTENT SLIDES ===== */
+  h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #f5d76e;
+    border-bottom: 2px solid rgba(245, 215, 110, 0.2);
+    padding-bottom: 12px;
+  }
+
+  h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #f0913a;
+    margin: 16px 0 8px 0;
+  }
+
+  .content { flex: 1; overflow-y: auto; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    flex: 1;
+  }
+
+  .three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    flex: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  ul li {
+    padding: 8px 0 8px 24px;
+    position: relative;
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.85);
+  }
+
+  ul li::before {
+    content: '\25C6';
+    position: absolute;
+    left: 0;
+    color: #f0913a;
+    font-size: 0.7em;
+    top: 10px;
+  }
+
+  .card {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .card h3 { margin-top: 0; }
+
+  .highlight {
+    background: rgba(245, 215, 110, 0.1);
+    border-left: 3px solid #f5d76e;
+    padding: 12px 16px;
+    margin: 12px 0;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    color: rgba(255,255,255,0.7);
+  }
+
+  .tag {
+    display: inline-block;
+    background: rgba(240, 145, 58, 0.15);
+    border: 1px solid rgba(240, 145, 58, 0.3);
+    color: #f0913a;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin: 3px 4px;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .pro { color: #2ecc71; }
+  .pro::before { content: '+  '; font-weight: 700; }
+  .con { color: #e67e73; }
+  .con::before { content: '?  '; font-weight: 700; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+    margin-top: 8px;
+  }
+
+  th {
+    text-align: left;
+    padding: 12px 14px;
+    background: rgba(245, 215, 110, 0.1);
+    color: #f5d76e;
+    font-family: 'Space Mono', monospace;
+    font-size: 1em;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  td {
+    padding: 10px 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: rgba(255,255,255,0.8);
+    font-size: 1em;
+  }
+
+  .leopard-game {
+    background: linear-gradient(135deg, rgba(220,80,40,0.1), rgba(245,215,110,0.05));
+    border: 1px solid rgba(220,80,40,0.3);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 16px;
+    text-align: center;
+  }
+
+  .leopard-game h3 {
+    color: #e74c3c;
+    font-size: 1.4em;
+  }
+
+  .big-question {
+    font-size: 1.9em;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.4;
+  }
+
+  .emoji { font-size: 1.3em; }
+</style>
+</head>
+<body>
+
+<!-- ========== SLIDE 1: TITLE ========== -->
+<div class="slide slide-title active" id="s1">
+  <img src="../../07-Resources/Images/Beware_the_Leopard.png" class="hero-image" alt="Beware the Leopard">
+  <h1>Beware the Leopard</h1>
+  <div class="subtitle">Events Strategy &mdash; Brainstorm Session</div>
+  <div class="intention">Today we <strong>brainstorm and gather as much input as we can</strong> across three domains &mdash; calendar, audiences, and content &mdash; so we can <strong>pass it all to Gustav</strong> for next Friday's mapping exercise. Focus on <strong>what matters most</strong> so we can then make decisions.</div>
+  <div class="date">Friday 20 March 2026 &bull; 3pm GMT</div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">1 / 16</div>
+</div>
+
+<!-- ========== SLIDE 2: AGENDA ========== -->
+<div class="slide" id="s2">
+  <h2>Today's Session</h2>
+  <div class="content">
+    <div class="two-col">
+      <div>
+        <h3>Three Domains</h3>
+        <ul>
+          <li><strong>The Calendar</strong> &mdash; which dates, which filters?</li>
+          <li><strong>Audiences</strong> &mdash; who are we reaching and why?</li>
+          <li><strong>Content & Logistics</strong> &mdash; what happens at the events?</li>
+        </ul>
+        <h3 style="margin-top:24px">The Tool</h3>
+        <ul>
+          <li>Obsidian + Claude &mdash; how the sausage is made</li>
+          <li>Live repo, live documentation, live action points</li>
+        </ul>
+      </div>
+      <div>
+        <div class="leopard-game">
+          <h3>Pass the Leopard</h3>
+          <p style="margin-top:12px; color:rgba(255,255,255,0.7);">Each question gets tossed around the room. Whoever holds the leopard speaks. No panels, no monologues &mdash; just shared sense-making.</p>
+          <p style="margin-top:12px; font-family:'Space Mono',monospace; font-size:0.85em; color:#f0913a;">"The plans were on display in the bottom of a locked filing cabinet stuck in a disused lavatory with a sign on the door saying 'Beware of the Leopard'."</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">2 / 16</div>
+</div>
+
+<!-- ========== SLIDE 3: SECTION — CALENDAR ========== -->
+<div class="slide section-header" id="s3">
+  <div class="section-number">01</div>
+  <h2>The Calendar</h2>
+  <div class="section-sub">Which dates do we follow? Which filter do we apply?</div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">3 / 16</div>
+</div>
+
+<!-- ========== SLIDE 4: ANNUAL CYCLE ========== -->
+<div class="slide" id="s4">
+  <h2>Filter 1: The Annual Cycle</h2>
+  <div class="content">
+    <p style="margin-bottom:16px; color:rgba(255,255,255,0.6);">David's four anchor dates &mdash; a narrative arc across the year.</p>
+    <table>
+      <tr><th>Season</th><th>Event</th><th>Theme</th><th>Date</th></tr>
+      <tr><td>Spring</td><td><strong>Earth Day / Hitchhiker Day</strong></td><td>Planting hope, RSA London launch</td><td>22 April</td></tr>
+      <tr><td>Summer</td><td><strong>The AGM</strong></td><td>Constitution, prizes, summer schools</td><td>4 July</td></tr>
+      <tr><td>Autumn</td><td><strong>Demolition Day</strong></td><td>Democracy, doom, fireworks</td><td>5 November</td></tr>
+      <tr><td>Winter</td><td><strong>Groundhog Day</strong></td><td>Rebooting Earth from backup</td><td>2 February</td></tr>
+    </table>
+    <div class="two-col" style="margin-top:20px;">
+      <div>
+        <h3>Strengths</h3>
+        <ul>
+          <li class="pro">Strong narrative arc (destroy &rarr; reboot &rarr; launch &rarr; celebrate)</li>
+          <li class="pro">Piggbacks on recognised dates (Earth Day, Guy Fawkes)</li>
+          <li class="pro">Crowdfundable, sponsor-friendly</li>
+          <li class="pro">Two months of David's prior work on this</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Considerations</h3>
+        <ul>
+          <li class="con">How many in year one? 1 done brilliantly or 4 done adequately?</li>
+          <li class="con">Some dates culturally narrow (4 July = American, 5 Nov = English)</li>
+          <li class="con">Lacks deep historical resonance beyond pop culture</li>
+          <li class="con">Towel Day (25 May) &mdash; fun but shallow as standalone</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">4 / 16</div>
+</div>
+
+<!-- ========== SLIDE 5: SIX-WEEK CYCLES ========== -->
+<div class="slide" id="s5">
+  <h2>Filter 2: Six-Week Workshop Cycles</h2>
+  <div class="content">
+    <div class="two-col">
+      <div>
+        <h3>How It Works</h3>
+        <ul>
+          <li>~8 cycles per year (~352 days + holidays)</li>
+          <li>Each cycle: opening day &rarr; weekly rhythm &rarr; closing showcase</li>
+          <li>Closing events align with annual milestones</li>
+          <li>Content from one cycle feeds the next (podcasts, visuals, NFTs)</li>
+          <li>Globally coordinated: Africa &rarr; London &rarr; America</li>
+        </ul>
+        <h3>Podcast Schedule</h3>
+        <ul>
+          <li>Weekly release tied to cycle rhythm</li>
+          <li>Staggered by region? Or synchronised globally?</li>
+          <li>Feeds Hitchhiker Radio and social media calendar</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Strengths</h3>
+        <ul>
+          <li class="pro">Sustained engagement, not one-off events</li>
+          <li class="pro">Built-in production schedule for content</li>
+          <li class="pro">Cross-pollination between regions</li>
+        </ul>
+        <h3>Considerations</h3>
+        <ul>
+          <li class="con">Requires coordination infrastructure</li>
+          <li class="con">Do cycles lead up to milestones or run independently?</li>
+          <li class="con">Podcast cadence needs decision</li>
+          <li class="con">How do 42 people in London connect meaningfully with 42 in Nairobi?</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">5 / 16</div>
+</div>
+
+<!-- ========== SLIDE 6: OTHER FILTERS ========== -->
+<div class="slide" id="s6">
+  <h2>Filters 3–7: More Options</h2>
+  <div class="content">
+    <div class="three-col">
+      <div class="card">
+        <h3>UN World Days</h3>
+        <ul>
+          <li>~60 mapped for relevance</li>
+          <li>"They're all done terribly &mdash; massive opportunity"</li>
+          <li>Pick ~4 in year one</li>
+          <li>Year 2+: self-organised adoption</li>
+        </ul>
+        <p class="pro" style="margin-top:8px;">Grant-friendly</p>
+        <p class="con">Which 4?</p>
+      </div>
+      <div class="card">
+        <h3>Piggybacking</h3>
+        <ul>
+          <li>Existing conferences & festivals</li>
+          <li>Comic Con, SXSW, Smart Cities, COP31</li>
+          <li>Guerrilla / Partnership / Paid (~20k)</li>
+        </ul>
+        <p class="pro" style="margin-top:8px;">Revenue potential</p>
+        <p class="con">Which events in year one?</p>
+      </div>
+      <div class="card">
+        <h3>Historical / Story-Driven</h3>
+        <ul>
+          <li>Dates chosen for narrative power</li>
+          <li>Budapest Declaration, first "robot", constitutional moments</li>
+          <li>Deep resonance the annual cycle lacks</li>
+        </ul>
+        <p class="pro" style="margin-top:8px;">Unique &amp; ownable</p>
+        <p class="con">Requires curation</p>
+      </div>
+    </div>
+    <div class="two-col" style="margin-top:20px;">
+      <div class="card">
+        <h3>Micro-Events / Pop-Ups</h3>
+        <ul>
+          <li>Grassroots, always-on, low barrier</li>
+          <li>TikToks, voice notes &rarr; social calendar</li>
+          <li>Hitchhiker busking (Micky), street theatre (Atlas)</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Astral / Celestial</h3>
+        <ul>
+          <li>Eclipses, meteor showers, solstices</li>
+          <li>Catalonia eclipse &mdash; 12 Aug 2026</li>
+          <li>Pagan/esoteric mirror of the annual cycle</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">6 / 16</div>
+</div>
+
+<!-- ========== SLIDE 7: CALENDAR QUESTIONS ========== -->
+<div class="slide" id="s7">
+  <h2>Pass the Leopard &mdash; Calendar Questions</h2>
+  <div class="content" style="display:flex; flex-direction:column; justify-content:center; gap:20px;">
+    <div class="highlight big-question">How many milestone events in year one?<br><span style="font-size:0.6em; color:#f0913a;">One done brilliantly &mdash; or four done adequately?</span></div>
+    <div class="highlight big-question">Which filter do we lead with?<br><span style="font-size:0.6em; color:#f0913a;">Annual cycle? World days? History-driven? Piggybacking? Hybrid?</span></div>
+    <div class="highlight big-question">What's your top 3 events for year one?<br><span style="font-size:0.6em; color:#f0913a;">Name them. Defend them. Pass the leopard.</span></div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">7 / 16</div>
+</div>
+
+<!-- ========== SLIDE 8: SECTION — AUDIENCES ========== -->
+<div class="slide section-header" id="s8">
+  <div class="section-number">02</div>
+  <h2>Audiences</h2>
+  <div class="section-sub">Who are we reaching &mdash; and who turns up in year one?</div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">8 / 16</div>
+</div>
+
+<!-- ========== SLIDE 9: AUDIENCE MAP ========== -->
+<div class="slide" id="s9">
+  <h2>The Audience Landscape</h2>
+  <div class="content">
+    <table>
+      <tr><th>Audience</th><th>What Draws Them</th><th>Event Types</th></tr>
+      <tr><td>Hitchhiker fans / Douglas Adams community</td><td>The lore, the humour, 42</td><td>Towel Day, book events, guide writing</td></tr>
+      <tr><td>Open source / techies</td><td>Build the platform</td><td>Hackathons, vibe coding sprints</td></tr>
+      <tr><td>Governance / constitutional</td><td>Design the OS</td><td>Value workshops, legislative theatre</td></tr>
+      <tr><td>Regenerative / permaculture</td><td>Farm-to-fork, land</td><td>Restaurant events, bioregional gatherings</td></tr>
+      <tr><td>Theatre / artists</td><td>Create the culture</td><td>Open world theatre, immersive events</td></tr>
+      <tr><td>Youth &amp; students</td><td>Shape the future</td><td>Co-creation labs, Hitchhiker's Circles</td></tr>
+      <tr><td>Musicians</td><td>Play for the planet</td><td>Connected concerts, pirate radio</td></tr>
+      <tr><td>Policy / institutional</td><td>Water, climate, urban</td><td>Alliance forums, COP31</td></tr>
+      <tr><td>General public</td><td>Curiosity, fun</td><td>Street pop-ups, social media moments</td></tr>
+    </table>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">9 / 16</div>
+</div>
+
+<!-- ========== SLIDE 10: AUDIENCE VOICES ========== -->
+<div class="slide" id="s10">
+  <h2>What the Team Says About Audiences</h2>
+  <div class="content">
+    <div class="two-col">
+      <div>
+        <div class="card" style="margin-bottom:16px;">
+          <h3>Nicole</h3>
+          <p>Youth-led, intergenerational. 35 youth orgs via Alliance for Youth-Led Futures. Dessau design students. Water/climate policy actors.</p>
+        </div>
+        <div class="card" style="margin-bottom:16px;">
+          <h3>Yvette</h3>
+          <p>Douglas Adams community peaks Mar 11 &ndash; May 25. Quilting metaphor: each person makes a unique block, together a blanket. <em>"I don't have the technical understanding of what H2GE looks like &mdash; so it's hard to know how to contribute."</em></p>
+        </div>
+        <div class="card">
+          <h3>Rijon</h3>
+          <p>No US node yet. Cincinnati as potential hub. Open Space Technology community. Peter Block / Beta Codex networks.</p>
+        </div>
+      </div>
+      <div>
+        <div class="card" style="margin-bottom:16px;">
+          <h3>Micky</h3>
+          <p>"The melting pot of humanity" &mdash; street-level busking as first contact. Melbourne arts/Culture Jam network.</p>
+        </div>
+        <div class="card" style="margin-bottom:16px;">
+          <h3>Hank</h3>
+          <p>"They don't know how to do the future." Futures salons, city songs. Community self-empowerment (Morocco, Andros).</p>
+        </div>
+        <div class="card">
+          <h3>David</h3>
+          <p>Focus on people with actual event experience for audience mapping. Atlas + Graham as key voices. Beware of opinions from people who've never filled a room.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">10 / 16</div>
+</div>
+
+<!-- ========== SLIDE 11: AUDIENCE QUESTIONS ========== -->
+<div class="slide" id="s11">
+  <h2>Pass the Leopard &mdash; Audience Questions</h2>
+  <div class="content" style="display:flex; flex-direction:column; justify-content:center; gap:20px;">
+    <div class="highlight big-question">Which audiences are realistic for year one?<br><span style="font-size:0.6em; color:#f0913a;">Who can we actually reach &mdash; and get to show up?</span></div>
+    <div class="highlight big-question">Rank your top 3 audiences by priority.<br><span style="font-size:0.6em; color:#f0913a;">Students? Hackers? Adams fans? Artists? Policy people?</span></div>
+    <div class="highlight big-question">How do we make H2GE legible to newcomers?<br><span style="font-size:0.6em; color:#f0913a;">Yvette's challenge: "I don't know what the quilt looks like yet."</span></div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">11 / 16</div>
+</div>
+
+<!-- ========== SLIDE 12: SECTION — CONTENT ========== -->
+<div class="slide section-header" id="s12">
+  <div class="section-number">03</div>
+  <h2>Content & Logistics</h2>
+  <div class="section-sub">What happens at the events? How do we run them?</div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">12 / 16</div>
+</div>
+
+<!-- ========== SLIDE 13: EVENT FORMATS ========== -->
+<div class="slide" id="s13">
+  <h2>Event Formats</h2>
+  <div class="content">
+    <div class="three-col">
+      <div class="card">
+        <h3>Street / First Contact</h3>
+        <ul>
+          <li>Pod of ~6, towels mandatory</li>
+          <li>A question, a game, absurdity</li>
+          <li>Capture: photo, video, voice note</li>
+          <li>Leave behind: card, QR, invitation</li>
+          <li>No hard sell &mdash; an encounter</li>
+        </ul>
+        <div style="margin-top:8px;">
+          <span class="tag">Atlas</span><span class="tag">Micky</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Venue Gatherings</h3>
+        <ul>
+          <li>Partner model: we bring content, they provide space</li>
+          <li>Adaptable run sheet</li>
+          <li>Fathom recording + transcription</li>
+          <li>Gustav-style facilitation or open space</li>
+        </ul>
+        <div style="margin-top:8px;">
+          <span class="tag">RSA London</span><span class="tag">Catalonia</span><span class="tag">Melbourne</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Connected Multi-Location</h3>
+        <ul>
+          <li>Minimum 3 locations, target 42</li>
+          <li>Local autonomy + mission control</li>
+          <li>Live audio routing between sites</li>
+          <li>Global soundscape woven live</li>
+        </ul>
+        <div style="margin-top:8px;">
+          <span class="tag">David</span><span class="tag">HomeLab</span>
+        </div>
+      </div>
+    </div>
+    <div class="two-col" style="margin-top:20px;">
+      <div class="card">
+        <h3>Hitchhiker's Circles (Nicole)</h3>
+        <p>Less panels, more shared sense-making and prototyping. Speculative futures, immersive narrative. Experience over measurement.</p>
+      </div>
+      <div class="card">
+        <h3>Co-Creation Labs (Nicole)</h3>
+        <p>4&ndash;5 month practice-based projects with students. Output: real-world moments and prototypes. Dessau University as pilot.</p>
+      </div>
+    </div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">13 / 16</div>
+</div>
+
+<!-- ========== SLIDE 14: EVENT TYPES ========== -->
+<div class="slide" id="s14">
+  <h2>Event Types &mdash; What Could We Actually Do?</h2>
+  <div class="content">
+    <div class="two-col">
+      <div>
+        <h3>Content Categories</h3>
+        <ul>
+          <li><strong>Constitutional</strong> &mdash; workshops, legislative theatre, Community Congress</li>
+          <li><strong>Creative</strong> &mdash; alien workshops, open world theatre, immersive events</li>
+          <li><strong>Technical</strong> &mdash; hackathons, vibe coding sprints, platform builds</li>
+          <li><strong>Literary</strong> &mdash; book launches, guide reveals, World Book Day</li>
+          <li><strong>Contemplative</strong> &mdash; futures salons, Hitchhiker's Circles, sense-making</li>
+          <li><strong>Celebratory</strong> &mdash; Towel Day, AGM, prizes, summer schools</li>
+          <li><strong>Food</strong> &mdash; Restaurant at the End of the Universe (farm-to-fork governance)</li>
+          <li><strong>Narrative</strong> &mdash; city songs, historical date activations, audio experiences</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Yvette's Event List</h3>
+        <ul>
+          <li>Constitutional Congress Events</li>
+          <li>Vibe Coding Events</li>
+          <li>H2GE Launch Events</li>
+          <li>H2G2 Re-invigoration Events</li>
+          <li>Guide Launch Events</li>
+          <li>Burning Man</li>
+          <li>Towel Day</li>
+        </ul>
+        <h3>Yvette's Milestone Checklist</h3>
+        <ol style="padding-left:20px; color:rgba(255,255,255,0.7); font-size:0.9em;">
+          <li>Date &amp; title</li>
+          <li>Leadership / organisers</li>
+          <li>Audience</li>
+          <li>Sponsors (if funds needed)</li>
+          <li>Location / mode</li>
+          <li>Invitations / marketing</li>
+          <li>RSVPs</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">14 / 16</div>
+</div>
+
+<!-- ========== SLIDE 15: CONTENT QUESTIONS ========== -->
+<div class="slide" id="s15">
+  <h2>Pass the Leopard &mdash; Content Questions</h2>
+  <div class="content" style="display:flex; flex-direction:column; justify-content:center; gap:20px;">
+    <div class="highlight big-question">How do we connect events across locations meaningfully?<br><span style="font-size:0.6em; color:#f0913a;">What makes Melbourne feel connected to Miami &mdash; not just simultaneous?</span></div>
+    <div class="highlight big-question">What does the event production company need to build?<br><span style="font-size:0.6em; color:#f0913a;">Software, streaming, archiving, AI storytelling &mdash; what's the MVP?</span></div>
+    <div class="highlight big-question">How do we fund year one?<br><span style="font-size:0.6em; color:#f0913a;">EU grants? Paid interventions (~20k)? Crowdfunding? Time bank? All of the above?</span></div>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">15 / 16</div>
+</div>
+
+<!-- ========== SLIDE 16: CLOSING ========== -->
+<div class="slide section-header" id="s16">
+  <div class="section-number" style="font-size:4em;">42</div>
+  <h2>What's Next?</h2>
+  <div class="section-sub" style="max-width:700px;">
+    Gustav workshop &mdash; Friday 27 March, 3pm GMT<br>
+    He needs two maps from us: <strong>Audiences</strong> and <strong>Event Strategy</strong><br><br>
+    <span style="color:#f0913a;">Your homework: top 3 events, preferred filter, audience gut-feel.</span>
+  </div>
+  <div class="leopard-game" style="margin-top:30px; max-width:500px;">
+    <h3>Don't Panic</h3>
+    <p style="margin-top:8px; color:rgba(255,255,255,0.6); font-family:'Space Mono',monospace; font-size:0.9em;">Always know where your towel is.</p>
+  </div>
+  <img src="../../07-Resources/Images/42_logo_stars_retro.png" class="logo" alt="42">
+  <div class="slide-counter">16 / 16</div>
+</div>
+
+<div class="nav-hint">Arrow keys or click to navigate &bull; F for fullscreen</div>
+
+<script>
+  let current = 0;
+  const slides = document.querySelectorAll('.slide');
+  const total = slides.length;
+
+  function goTo(n) {
+    slides[current].classList.remove('active');
+    current = ((n % total) + total) % total;
+    slides[current].classList.add('active');
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ') {
+      e.preventDefault(); goTo(current + 1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+      e.preventDefault(); goTo(current - 1);
+    } else if (e.key === 'Home') {
+      e.preventDefault(); goTo(0);
+    } else if (e.key === 'End') {
+      e.preventDefault(); goTo(total - 1);
+    } else if (e.key === 'f' || e.key === 'F') {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    }
+  });
+
+  document.addEventListener('click', (e) => {
+    if (e.clientX > window.innerWidth / 2) goTo(current + 1);
+    else goTo(current - 1);
+  });
+
+  // Touch support
+  let touchStartX = 0;
+  document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+  document.addEventListener('touchend', (e) => {
+    const diff = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(diff) > 50) {
+      if (diff < 0) goTo(current + 1);
+      else goTo(current - 1);
+    }
+  });
+</script>
+</body>
+</html>
