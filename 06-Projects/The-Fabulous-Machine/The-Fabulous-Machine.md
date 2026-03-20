@@ -1,8 +1,8 @@
-# The Fabulous Machine
+# The Fabulous Machine 
 
 *An invitation to weave and vibe code Earth's New Operating System*
 
-*This document is the output of a conversation between the nameless one, max and graham on tuesday 17th march from 0800 to 1000 PT. they initially played a game of now, then focused attention on the concept of the fabulous machine and its use as a metaphor for what we are building at Hitchhikers. the nameless one facilitated the conversation and wrote the words. this was then added to claude code as a prompt. *
+*This document is the output of a conversation between the nameless one, max and graham on tuesday 17th march from 0800 to 1000 PT. they initially played a game of now, then focused attention on the concept of the fabulous machine and its use as a metaphor for what we are building at Hitchhikers. the nameless one facilitated the conversation and wrote the words. this was then added to claude code as a prompt.*
 
 ---
 
@@ -55,7 +55,7 @@ The dual-agent model (Protector and Actor) ensures structural privacy: one agent
 
 Individuals form groups with radical simplicity — in a coffee shop, at a community center, anywhere. Forming a circle is as easy as starting a conversation. Standard agreements are immediately in place — already legally solid on the back end, both human-readable and machine-readable, modifiable locally but not subordinate to any legacy institution.
 
-These circles nest fractally: individuals → circles → communities of ~10,000 → bioregions → the 42 regions → Earth → and reaching outward towards whatever federations may exist beyond.
+These circles nest fractally: individuals → circles → communities of ~10,000 → guilds → bioregions → the 42 regions → Earth → and reaching outward towards whatever federations may exist beyond.
 
 ### Dual Encoding: Human + Machine
 
@@ -70,13 +70,13 @@ Same source of truth. Same holon. Same GUID. The automation never diverges from 
 
 The core currency of the Fabulous Machine is **Time, Energy, and Attention (TEA)** — tracked through the Pangalactic Time Bank. Members exchange hours. The ledger maintains balances, transaction histories, credit limits, and weekly clearing with signed attestations.
 
-Time flows into dynamic equity (via Slicing the Pie / fair shares commons principles) — so that every contribution to co-creating the operating system earns a genuine, legally defensible stake in what is being built. Not shares in a corporation. Multigenerational co-stewardship of our domains of responsibility and authority, including Earth herself.
+Time flows into dynamic equity (via Slicing the Pie / fair shares commons / LIONSBERG principles) — so that every contribution to co-creating the operating system earns a genuine, legally defensible stake in what is being built. Not shares in a corporation. Multigenerational co-stewardship of our domains of responsibility and authority, including Earth herself.
 
 ### Quests
 
 The system's unit of coordinated action is the **Quest** — a specific, time-bound, measurable mission emerging from collective discernment of the Wise Right Next Steps.
 
-Quests run on **42-day cycles**. Each requires pledged time/energy (42 hours per cycle) to be intelligently allocated holofractally — sovereign individuals and circles deciding together what to build, heal, grow, or protect, with efforts stacking and aligning from local to planetary scale.
+Quests run on **42-day cycles**. Each requires pledged time/energy (minimum 42 hours per actor per cycle) to be intelligently allocated holofractally — sovereign individuals and circles deciding together what to build, heal, grow, or protect, with efforts stacking and aligning from local to planetary scale.
 
 Between cycles: omnispection, retrospection, celebration, ritual, and rediscernment. Between seasons: major re-evaluation. Each group levels up or down to stay in their zone of optimum development. Mentoring, coaching, and guidance flow through the system like nutrients through mycelia.
 
@@ -84,15 +84,15 @@ Between cycles: omnispection, retrospection, celebration, ritual, and rediscernm
 
 - **Master planning and critical path analysis** that pools wisdom at the highest levels while respecting sovereignty at every level
 - **Matchmaking and triage** — intelligent alignment of offers, needs, and desires across the network
-- **Progressive pledging** — subscription-like commitment with milestones, making participation accessible and trust-building incremental
-- **The Pangalactic Lottery** — the biggest lottery on the planet, owned by everyone, not-for-profit, with prizes funding infrastructure; free entry through time donation; a go-to-market strategy that is also a governance mechanism
-- **AI agents** at every level — individual, circle, bioregional, planetary — cooperating through an InterFace Protocol with gradients of trust, transparency, and disclosure
+- **Progressive pledging** — subscription-like commitment with milestones, making participation accessible, trust-building incremental, and the improbable possible  
+- **The Pangalactic Lottery** — the biggest lottery on the planet, owned by everyone, not-for-profit, with prizes fabulous and experiential, and resources funding infrastructure; free entry through time donation; a go-to-market strategy that is also a governance mechanism
+- **AI agents** at every level — individual, circle, 42regional, planetary — cooperating through an InterFace Protocol with gradients of trust, transparency, and disclosure
 
 ### Sensory Network and Vital Signs
 
-The Fabulous Machine maintains a living sensory network — nodes that monitor vital signs at every scale. Think of Ray Dalio's Dot Machine, but for civilizational health rather than financial markets.
+The Fabulous Machine maintains a living sensory network — nodes that monitor vital signs at every scale. Think of a Dot Machine, but for civilizational health rather than financial markets.
 
-Each node is an object in a graph — connected, programmable, responsive. Nodes can represent human values, ecological indicators, community wellbeing metrics, spiritual principles, or anything a community decides matters. Signals flow through the network. Communities workshop their own nodes — defining what to measure, how to respond, what thresholds trigger action.
+Each node is an object in a graph — connected, programmable, responsive. Nodes can represent human values, ecological indicators, community wellbeing metrics, spiritual principles, or anything a community decides matters. Signals flow through the network. Communities workshop their own nodes — defining what to measure, how to respond, what thresholds trigger action. Just like an organic emerging superorganism maintains hemeostasis across its many organ systems. 
 
 Smileys as units of measure for vital signs — internal and external. Can the smileys evolve? Can they measure things we weren't previously measuring? Can emergent gameplay surface new forms of collective intelligence?
 
@@ -113,7 +113,7 @@ The Fabulous Machine enables an entirely new form of collaborative content creat
 - Agentic remixing and co-creation across the network
 - Hitchhiker Radio — every sovereign can have their own broadcast station
 - Avatars that speak from different perspectives
-- Local Guides — each community writing their own Hitchhiker's Guide to their place, their bioregion, their Way
+- Local Guides — each community writing their own Hitchhiker's Guide to their place, their domains, their Way
 - Fun, social, memetic amplification — #EarthReview and beyond
 
 ### Distributed Infrastructure
@@ -129,7 +129,7 @@ The Machine coordinates and pools local compute and edge compute into vast, powe
 - **Interoperable** — if others build their own cosmic-grade operating systems, we prioritize federation
 - **Privacy-preserving** — bottom-up data sovereignty, zero-knowledge proofs, dual-agent separation
 - **Continuously improving** — vibe-codeable interfaces, modular components, organic evolution
-- **Balancing human and machine** — artificial intelligence in service of something we might call divine intelligence, or at least collective wisdom
+- **Balancing human and machine** — artificial intelligence in service of something we might call divine intelligence
 - **Observable** — the role of witnesses, grandmothers, wise elders, and conscious attention as forces that guide the system in ways technology alone cannot see
 - **Not the fear machine** — we are building the antidote
 
@@ -139,9 +139,9 @@ Our working assumption is simple and radical: if this is supposed to happen, the
 
 Within the first few percent of the population that responds to this invitation, we expect to discover that nearly every component needed to complete the Fabulous Machine has already been conceptualized, prototyped, or fully built — by people and projects that don't yet know they are part of the same puzzle. Identity systems. Time banks. Governance protocols. Legal frameworks. Privacy architectures. Sensory networks. Community platforms. Agentic systems. Distributed compute. Each developed independently, each carrying a piece of the pattern.
 
-We are not starting from scratch. We do not have time to start from scratch. What we are doing is *weaving* — discovering the pieces, recognizing how they fit, and vibe coding whatever interoperability or refactoring is needed to bring them into coherent cooperation.
+We are not starting from scratch. We do not have time to start from scratch. What we are doing is *weaving* — discovering the pieces, recognizing how they fit, and vibe coding whatever interoperability or refactoring is needed to bring them into coherent interoperation.
 
-This is why the commons structure matters so profoundly. Because the Fabulous Machine is built on one-member-one-voice mutual co-ownership — because every contributor holds an equal stake in the whole we are co-creating through the federated legal and equity structure — there is nothing to protect or guard. No one needs to hoard their contribution or negotiate defensively. The incentive structure is reversed: the only rational move is to contribute as much value as rapidly as possible, because every contribution strengthens the commons that belongs to all of us equally.
+This is why the commons structure matters so profoundly. Because the Fabulous Machine is built on one-member-one-voice mutual co-ownership — because every contributor holds an equal stake in the whole we are co-creating through the federated legal and stewardship structure — there is nothing to protect or guard. No one needs to hoard their contribution or negotiate defensively. The incentive structure is reversed: the only rational move is to radically collaborate and co-create as much value as rapidly as possible, because every contribution strengthens the commons that belongs to all of us equally.
 
 This changes everything about how we build. Instead of competing to capture value, we cooperate to *create* it — as fast as we can, as beautifully as we can, as fabulously as we can — while regenerating the world and co-creating the New Civilization in the process.
 
@@ -153,7 +153,7 @@ The Fabulous Machine is not something one team builds and others use. It is some
 
 The intricate pieces. The visual front ends. The legal substrates. The governance protocols. The sensory networks. The quest engines. The time banks. The broadcast stations. The local guides. The smileys.
 
-Each piece, fabulously designed to work for people.
+Each piece, fabulously designed to work for the Earth and all her inhabitants.
 
 **First steps:**
 1. Verification of personhood, passports, and profiles
