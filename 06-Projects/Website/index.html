@@ -125,11 +125,14 @@
   const el = document.getElementById('word');
   let i = 0;
 
+  const colours = { 'The Colour Blue': '#3498db' };
+
   function nextWord() {
     el.style.animation = 'wordOut 0.4s ease forwards';
     setTimeout(() => {
       i = (i + 1) % words.length;
       el.textContent = words[i];
+      el.style.color = colours[words[i]] || '#fff';
       el.style.animation = 'wordIn 0.5s ease forwards';
     }, 400);
   }
