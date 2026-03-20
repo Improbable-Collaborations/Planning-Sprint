@@ -79,7 +79,8 @@
 </video>
 
 <div class="sign">Site Under Construction</div>
-<div class="sorry">Bob says, <span id="sorry-text"></span></div>
+<div class="sorry">Bob says,</div>
+<div class="sorry" id="sorry-text" style="margin-top:12px;"></div>
 
 <a href="home.html" class="back">Back</a>
 
@@ -87,6 +88,7 @@
   const text = 'SORRY FOR THE INCONVENIENCE';
   const el = document.getElementById('sorry-text');
   let i = 0;
+  let flashes = 0;
 
   function addLetter() {
     if (i < text.length) {
@@ -97,11 +99,23 @@
       i++;
       setTimeout(addLetter, 120);
     } else {
+      setTimeout(flash, 600);
+    }
+  }
+
+  function flash() {
+    if (flashes < 6) {
+      el.style.opacity = flashes % 2 === 0 ? '0' : '1';
+      flashes++;
+      setTimeout(flash, 300);
+    } else {
+      el.style.opacity = '1';
       setTimeout(() => {
         el.innerHTML = '';
         i = 0;
+        flashes = 0;
         addLetter();
-      }, 3000);
+      }, 1000);
     }
   }
 
