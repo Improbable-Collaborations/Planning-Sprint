@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coming Soon</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #000;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 40px;
+  }
+
+  .sign {
+    font-size: 1.4em;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 2px;
+    margin-bottom: 48px;
+  }
+
+  .back {
+    font-size: 0.85em;
+    color: rgba(255,255,255,0.3);
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 10px 32px;
+    transition: all 0.3s ease;
+  }
+
+  .back:hover {
+    color: #fff;
+    border-color: rgba(255,255,255,0.5);
+  }
+
+  @media (max-width: 600px) {
+    .logo { width: 120px; height: 120px; margin-bottom: 28px; }
+    .sign { font-size: 1em; }
+  }
+</style>
+</head>
+<body>
+
+<video class="logo" autoplay loop muted playsinline>
+  <source src="42_logo_animated.mp4" type="video/mp4">
+</video>
+
+<div class="sign">Coming Soon</div>
+
+<a href="home.html" class="back">Back</a>
+
+</body>
+</html>
