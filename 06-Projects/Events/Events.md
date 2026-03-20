@@ -1,4 +1,4 @@
-C# Hitchhiker Events
+# Hitchhiker Events
 
 *First contact with the culture, and an invitation into the Fabulous Machine*
 
