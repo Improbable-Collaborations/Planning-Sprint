@@ -31,7 +31,25 @@
     font-size: 1.4em;
     color: rgba(255,255,255,0.5);
     letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+
+  .sorry {
+    font-size: 1em;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 3px;
     margin-bottom: 48px;
+  }
+
+  .sorry span {
+    display: inline-block;
+    opacity: 0;
+    animation: letterIn 0.3s ease forwards;
+  }
+
+  @keyframes letterIn {
+    from { opacity: 0; transform: rotateX(90deg); }
+    to { opacity: 1; transform: rotateX(0deg); }
   }
 
   .back {
@@ -60,10 +78,35 @@
   <source src="42_logo_animated.mp4" type="video/mp4">
 </video>
 
-<div class="sign">Bob says, Site Under Construction</div>
-<div class="sign" style="font-size:1em; margin-top:8px;">Bob says, Sorry for the Inconvenience</div>
+<div class="sign">Site Under Construction</div>
+<div class="sorry">Bob says, <span id="sorry-text"></span></div>
 
 <a href="home.html" class="back">Back</a>
+
+<script>
+  const text = 'SORRY FOR THE INCONVENIENCE';
+  const el = document.getElementById('sorry-text');
+  let i = 0;
+
+  function addLetter() {
+    if (i < text.length) {
+      const span = document.createElement('span');
+      span.textContent = text[i] === ' ' ? '\u00A0' : text[i];
+      span.style.animationDelay = '0s';
+      el.appendChild(span);
+      i++;
+      setTimeout(addLetter, 120);
+    } else {
+      setTimeout(() => {
+        el.innerHTML = '';
+        i = 0;
+        addLetter();
+      }, 3000);
+    }
+  }
+
+  addLetter();
+</script>
 
 </body>
 </html>
