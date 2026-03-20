@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Hitchhiker's Guide to Earth</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #000;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2.4em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: rgba(255,255,255,0.85);
+  }
+
+  .rotating-line {
+    font-size: 3.6em;
+    font-weight: 700;
+    height: 1.3em;
+    overflow: hidden;
+    margin: 12px 0 48px;
+  }
+
+  .rotating-word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: wordIn 0.5s ease forwards;
+  }
+
+  @keyframes wordIn {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes wordOut {
+    to { opacity: 0; transform: translateY(-30px); }
+  }
+
+  .logo {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 48px;
+    opacity: 0;
+    animation: fadeIn 1.5s ease 0.5s forwards;
+  }
+
+  .enter-btn {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    background: none;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 14px 48px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 1.5s ease 1s forwards;
+  }
+
+  .enter-btn:hover {
+    color: #fff;
+    border-color: rgba(255,255,255,0.6);
+    box-shadow: 0 0 30px rgba(255,255,255,0.1);
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  @media (max-width: 600px) {
+    .title { font-size: 1.3em; }
+    .rotating-line { font-size: 2em; margin: 8px 0 36px; }
+    .logo { width: 100px; height: 100px; margin-bottom: 36px; }
+    .enter-btn { font-size: 0.85em; padding: 12px 36px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="title">The Hitchhiker's Guide to</div>
+<div class="rotating-line">
+  <span class="rotating-word" id="word"></span>
+</div>
+
+<video class="logo" autoplay loop muted playsinline>
+  <source src="42_logo_animated.mp4" type="video/mp4">
+</video>
+
+<button class="enter-btn">Enter</button>
+
+<script>
+  const words = [
+    'Earth', 'Water', 'Yep, Fire', 'hAIR',
+    '🙄', 'Doomscrolling',
+    'Bureacracy', 'Spelling Mistakes', 'Panic', 'Ice Cream',
+    'The Colour Blue', 'Insert Your Guide Here',
+    'The Universe!', 'The Multi-Verse',
+    'The Multi-Verses', 'Are you addicted yet?',
+    'PS. The Enter Button Does Not Work Yet',
+    'Yes, Marvin is on his way',
+    'Goodbye and Thanks for...', 'Your T.E.A.',
+    'Time Energy and Attention', 'Oh no, not again...'
+  ];
+
+  const el = document.getElementById('word');
+  let i = 0;
+
+  function nextWord() {
+    el.style.animation = 'wordOut 0.4s ease forwards';
+    setTimeout(() => {
+      i = (i + 1) % words.length;
+      el.textContent = words[i];
+      el.style.animation = 'wordIn 0.5s ease forwards';
+    }, 400);
+  }
+
+  el.textContent = words[0];
+  setInterval(nextWord, 2200);
+</script>
+
+</body>
+</html>

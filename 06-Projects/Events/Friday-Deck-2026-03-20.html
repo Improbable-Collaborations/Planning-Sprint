@@ -313,6 +313,80 @@
   }
 
   .emoji { font-size: 1.3em; }
+
+  /* ===== MOBILE: scrollable single-page layout ===== */
+  @media (max-width: 768px) {
+    body {
+      font-size: 15px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: auto;
+      width: 100%;
+    }
+
+    /* Show ALL slides as stacked sections, ignore .active */
+    .slide {
+      display: flex !important;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      min-height: auto;
+      padding: 32px 18px 40px;
+      position: relative;
+      overflow: visible;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .slide::before {
+      display: none; /* remove starfield — saves rendering on mobile */
+    }
+
+    /* Title slide */
+    .slide-title h1 { font-size: 1.6em; letter-spacing: 1px; }
+    .slide-title .subtitle { font-size: 1em; }
+    .slide-title .intention { font-size: 0.9em; }
+    .slide-title .hero-image { width: 220px; max-width: 70vw; margin-bottom: 20px; }
+
+    /* Section headers */
+    .section-header .section-number { font-size: 3em; }
+    .section-header h2 { font-size: 1.6em; }
+    .section-header .section-sub { font-size: 1em; }
+
+    /* Content */
+    h2 { font-size: 1.3em; margin-bottom: 12px; padding-bottom: 8px; }
+    h3 { font-size: 1.05em; }
+
+    .two-col, .three-col {
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+
+    .content { overflow: visible; }
+
+    .big-question { font-size: 1.1em; margin: 12px 0; }
+
+    /* Table */
+    table { font-size: 0.8em; display: block; overflow-x: auto; }
+    th, td { padding: 7px 6px; white-space: nowrap; }
+
+    /* Cards */
+    .card { padding: 14px; }
+    ul li { font-size: 0.95em; padding: 5px 0 5px 20px; }
+
+    /* Leopard game box */
+    .leopard-game { padding: 14px; }
+
+    /* Logo — show small, bottom-right of each section */
+    .logo { width: 36px; height: 36px; bottom: 8px; right: 12px; opacity: 0.5; }
+
+    /* Slide counter */
+    .slide-counter { position: relative; bottom: auto; left: auto; margin-top: 16px; text-align: right; font-size: 11px; }
+
+    /* Nav hint — hide on mobile since there's no keyboard */
+    .nav-hint { display: none; }
+
+    .highlight { padding: 10px 12px; margin: 8px 0; }
+  }
 </style>
 </head>
 <body>
@@ -773,21 +847,25 @@
     }
   });
 
-  document.addEventListener('click', (e) => {
-    if (e.clientX > window.innerWidth / 2) goTo(current + 1);
-    else goTo(current - 1);
-  });
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
-  // Touch support
-  let touchStartX = 0;
-  document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
-  document.addEventListener('touchend', (e) => {
-    const diff = e.changedTouches[0].clientX - touchStartX;
-    if (Math.abs(diff) > 50) {
-      if (diff < 0) goTo(current + 1);
+  if (!isMobile) {
+    document.addEventListener('click', (e) => {
+      if (e.clientX > window.innerWidth / 2) goTo(current + 1);
       else goTo(current - 1);
-    }
-  });
+    });
+
+    // Touch support for tablets in landscape
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (e) => { touchStartX = e.touches[0].clientX; });
+    document.addEventListener('touchend', (e) => {
+      const diff = e.changedTouches[0].clientX - touchStartX;
+      if (Math.abs(diff) > 50) {
+        if (diff < 0) goTo(current + 1);
+        else goTo(current - 1);
+      }
+    });
+  }
 </script>
 </body>
 </html>
