@@ -499,7 +499,36 @@ _Awaiting input._
 _Awaiting input._
 
 ### Nitin
-_Awaiting input._
+Preliminary thoughts regarding H2GE events in India
+
+1.Events and Milestones
+
+World Book Day - 23rd April
+Towel Day - 25th May
+
+Then, every 2 months, we can experiment with a new event 
+
+Possible ideas: 
+•⁠  ⁠Book swaps - bring a book you'd recommend to anyone in the world. exchange it with fellow attendees.
+•⁠  ⁠Supper clubs at designated Restaurants at the End of the Universe
+•⁠  ⁠Listening/watch party sessions - not just the radio show, but talks, the movie, TV show snippets, documentaries - anything which offers a phone-free experience.
+•⁠  ⁠Visits to the Planetarium and stargazing sessions (provided the air isn't too polluted)
+•⁠  ⁠Sprint writing sessions for the Guide
+•⁠  ⁠Themed pub quizzes
+
+ 2. Audience - Froody curious folks across age groups... readers, backpackers
+
+Target Markets - Delhi, Bangalore and Bombay to start with. Can activate local communities for on-ground support.
+
+3.  Content - can create zines and exclusive merch (fan badges, towels!). focus on user-generated content during events like we did on March 7th
+
+Logistics - Later, we should aim for reader-funded events (ticketed) but also make it worth their while and effort.
+
+In the initial stages, we can look at keeping entry free of cost, and offering a snack and beverage to keep them fuelled during the experience. A budget of ₹500 per attendee should be fine to start with.
+
+People - atleast a couple of on-ground volunteers to help with filming, and coordination.
+
+Partnerships - will activate the Bibliotherapy network built over the past six years - publishers, bookshops, book clubs, authors, venues.
 
 ### Micky (WhatsApp, 2026-03-18)
 
@@ -564,8 +593,69 @@ The sooner we identify the people and organisations to begin on building blocks,
 
 **Key points:** Douglas Adams season (Mar 11 – May 25) is her peak window; quilting metaphor for distributed co-creation; needs clearer technical vision of H2GE to know how to contribute; brings structured event planning methodology; content/logistics should follow event selection not precede it.
 
+### Friday Events Brainstorm (2026-03-20)
+
+See [full transcript](../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-20_Friday-Events-Brainstorm.md) — 262 min call. Participants: Graham (facilitating), David, Robbie (brief), Dana, Jai, Max, Paul Levy, Jordan/"Nameless One". Spring Equinox day. David and Robbie returning from Wales where they spent 2-3 days writing "the declaration".
+
+**Key points and new ideas surfaced:**
+
+**Paul Levy — The Anti-Hero's Journey:**
+- The trigger is the most important element: Arthur's world is destroyed without his consent
+- This isn't a voluntary journey — the Vogons blow up your house and all you get is a towel
+- Can participants "sign up" to having their world disrupted? That has to be the centrepiece
+- Audience should include "the wretchedly content" — people ready to take personal responsibility for the state of the world and be disrupted
+- Gen Alpha's love of retro (Atari, BBC Micro, Nokia phones, Pac-Man, original Star Wars) — ride that wave
+
+**David — Hybrid Decentralised Event Methodology:**
+- Every event is hybrid: local first, but connected — not Zoom-based, a different form of connectivity
+- Sound and radio as connective tissue (Hitchhikers.fm concept)
+- Restaurant at the End of the Universe as flagship format: community food festivals + home dinner parties, Pan Galactic Gargle cocktails, shared menus, food miles/farm-to-fork, same soundtrack globally
+- Don't Panic as framing — doom scrolling end of the universe but you can get involved
+- Follow-on is essential: not just vibe, but sign-up and machinery for involvement
+- Conversations stored and published as guides — like tiny citizen assemblies
+- Self-organising: people create their own events using the methodology
+- Demolition Day on November 5th = "the day the Earth got blown up" — combines Guy Fawkes, doom, Restaurant at the End of the Universe. Cathartic: celebrate the destruction, then give everyone a towel to act
+
+**Dana — Synchronised Global Events:**
+- Barbara Marx Hubbard's 21 Dec 2012 event: global, viral, no budget — it worked
+- Michael Gosney's human be-in (1960s SF) and global dance movement
+- UN Earth Days "falling flat" — Hitchhiker branding more compelling and quirky
+- Do one thing really well first
+- Strong leaning toward creative, culticulture events around Hitchhiker stories
+
+**Jai:**
+- Burning Man as calendar anchor (end of August)
+- Young people as major audience — most don't know Hitchhiker's
+- Peace movement globally — reframe fear into positive vibration
+- Digital opportunity woven into every physical event
+- Time capsule project synergy with hitchhiker events
+- Hitchhiker Guides to the Multiverse deck of cards (co-created)
+- Post-call: extended session with Max exploring game platform synergies (Coopoly + Oasis)
+
+**Jordan/"Nameless One":**
+- Equinoxes and solstices as backbone calendar — coordinating with Lionsburg events
+- Annual Galactic Meeting = most important event this year — stellar kickoff of constitutional drafting
+- Buckminster Fuller Institute, United Earth Networks as audiences
+- "Anarchist tech builders of new earth operating system" as key audience
+- Program management and systems approach needed so the Fabulous Machine works
+
+**Max:**
+- In-person vs digital events distinction — and giving people tools to create their own
+- Hitchhiker's Guide to Events — a "create your own event" kit
+- Two audience types: human AND AI agent — accreditations for AI agents building the Fabulous Machine
+- Hitchhikers as persistent identity system sharable with other organisations
+- Trust graphs enabling real hitchhiking revival — geo-tagged app concept
+- Oasis platform integration potential
+
+**Consensus points:**
+- Do one event brilliantly rather than many adequately
+- Hybrid is essential — local first, globally connected, not Zoom-staring
+- Food (Restaurant at the End of the Universe) strongest performance event concept
+- Commitment and pledged time matter more than large numbers
+- The disruption/demolition of the old world must be central, not just branding
+
 ### Dana
-_Awaiting input._
+_Awaiting input._ Interview on Monday 23rd
 
 ### Hank (from call 2026-03-18)
 See [Imagination IV transcript](../../03-Meetings/Standups_Zooms/Fathom-Transcripts/2026-03-18_Hank-Graham-Imagination-IV.md) — key themes: "they don't know how to do the future", fermentation as metaphor for cultural change, the invitation and the gift, futures salons, community self-empowerment (Morocco mudslides, Andros wind turbines), city songs concept.
