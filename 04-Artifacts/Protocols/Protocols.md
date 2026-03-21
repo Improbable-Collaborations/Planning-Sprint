@@ -24,6 +24,7 @@ These are not rules. They are commitments we make to each other so that energy f
 | [Communication Channels](Communication-Channels.md) | Which tools for what — and what goes where |
 | [Decision-Making](Decision-Making.md) | How decisions get made, by whom, and how they're recorded |
 | [Documentation](Documentation.md) | How we capture, store, and maintain shared knowledge |
+| [Memorandum of Understanding](Memorandum-Of-Understanding.md) | The framework agreement between a Hitchhiker and Hitchhikers.earth |
 
 ---
 
