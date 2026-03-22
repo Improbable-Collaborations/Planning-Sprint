@@ -104,7 +104,7 @@ Late-evening call with Mitch joining from New Zealand (on the way back from Japa
 
 | Date | Event |
 |------|-------|
-| 25 March (Wed) | Mitch back in St Albans from NZ/Japan |
+| 25 March (Wed) | Mitch back from NZ/Japan (home base) |
 | 26 March (Thu) | Compression/decompression demo session (usual time) — all record |
 | 27 March (Fri-Sat) | Nicole meeting (Art for Future Laboratory) |
 
@@ -158,7 +158,7 @@ VIEW RECORDING - 151 mins (No highlights): https://fathom.video/share/f3Wam85EJY
   Literally. Yeah, literally a week.
 
 5:18 - Graham (wgrahamstewart@gmail.com)
-  Wednesday, back in St Albans?
+  Wednesday, back home?
 
 5:21 - David Bovill
   Yeah.
@@ -389,7 +389,7 @@ VIEW RECORDING - 151 mins (No highlights): https://fathom.video/share/f3Wam85EJY
   I think there's a lot now on that. I can share my screen and show you what's been done already.
 
 45:48 - David Bovill
-  Yeah, you share that. Let's just pencil in next Thursday. So not this Thursday, but next Thursday, the usual time.  You'll be back in St. Albans then. You'll be fresh. 4마PS 5 5 6 6 After your flight, and we'll just book it as let's all record and do that and talk through it afterwards, yeah?
+  Yeah, you share that. Let's just pencil in next Thursday. So not this Thursday, but next Thursday, the usual time.  You'll be back home then. You'll be fresh. 4마PS 5 5 6 6 After your flight, and we'll just book it as let's all record and do that and talk through it afterwards, yeah?
 
 46:08 - Mitchell Travers
   Yeah, and it gives me time to prep as well. Like, I think some of these compressions are going to be easier than others in terms of, like, reconstruction, the meaning.
