@@ -44,13 +44,23 @@ OASIS has already built the hardest part. The `IOASISProvider` architecture mean
 
 ## The $FISH token
 
-**Not speculation. Real utility loops:**
+**The core is free. Always.**
 
-- **Stake FISH** to verify a cross-platform identity link → earn yield
-- **Earn FISH** for bridging active communities to the network
-- **Spend FISH** for AI features: translation, summarisation, agent delegation, private zkMessages
-- **Vote with FISH** on which new platforms get built next
-- **Integrate with $TEA** (Pan Galactic Timebank) — communication hours become measurable value
+Basic bridging across all platforms, OASIS avatar identity, standard history — free forever, no token required. Open protocol, self-hostable. Zero barriers to entry is non-negotiable for planetary scale.
+
+**$FISH unlocks premium features — via two equally valid paths:**
+
+| Path | Who | What they give |
+|---|---|---|
+| **Stake $FISH** | Crypto-native, orgs, investors | Capital |
+| **Timebank hours** | Builders, volunteers, everyone else | Time and contribution |
+
+A volunteer who gives 10 hours to the network gets the same AI translation features as someone who staked 1,000 $FISH. Time is capital. Neither path is second-class.
+
+**How FISH circulates:**
+- **Earn** by running a bridge, operating a node, or contributing to the Timebank
+- **Stake** to unlock premium AI features, extended archive, agent delegation, zkMessage
+- **Vote** on protocol upgrades and which platforms get built next
 
 Launch on Solana. EVM bridge via OASIS Universal Asset Bridge. TGE target: July 2026.
 

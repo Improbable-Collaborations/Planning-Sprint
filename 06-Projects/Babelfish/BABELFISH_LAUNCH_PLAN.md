@@ -134,33 +134,59 @@ This is proof of personhood that grows organically from real communication — n
 **Ticker:** FISH  
 **Tagline:** *"The fish that translates everything."*
 
-### Token utility (real loops, not speculation)
+### The non-negotiable: the protocol is free
 
-| Utility | Mechanism |
+Basic Babelfish — message bridging across all platforms, OASIS avatar identity, standard history — is **free forever, for everyone, no token required**. The protocol is open-source and self-hostable. No one is priced out of the network.
+
+This is not a compromise. It is the strategy. A grandmother in Bogotá, a builder in Lagos, a developer running their own node — all get the same core. Scale requires zero barriers to entry. The Fabulous Machine works for everyone or it doesn't work.
+
+### What $FISH unlocks (premium features only)
+
+| Free forever | Premium — stake FISH or contribute time |
 |---|---|
-| **Identity staking** | Stake FISH to verify a cross-platform identity link (e.g. "this Discord = this wallet = this OASIS avatar"). Slashed if proven false. |
-| **Community bridging rewards** | Earn FISH for successfully bridging an active community (minimum message volume threshold). Continuous emission for maintaining the bridge. |
-| **AI feature access** | Spend FISH for: real-time translation, AI summarisation of threads, agent delegation, private zkMessages |
-| **Platform governance** | Vote with FISH on which new platforms get prioritised next |
-| **Timebank integration** | FISH hooks into Pan Galactic Timebank — communication hours can be valued in $TEA + $FISH |
-| **Trust graph staking** | Stake FISH to vouch for another identity — earn yield if they prove trustworthy, slashed if not |
+| Message bridging (all platforms) | AI translation (real-time, cross-language) |
+| OASIS avatar identity | AI thread summarisation |
+| Basic message history | Extended archive + search |
+| Open protocol / self-host | Agent delegation |
+| Standard rate limits | zkMessage private threads |
+| — | White-label for your community |
+| — | Priority routing + higher rate limits |
 
-### Why the token has real demand
+### Two equally valid paths to premium
 
-1. **Every new community that gets bridged** needs FISH to activate the bridge
-2. **Every agent identity** staked on the network requires FISH
-3. **AI features** (translation, summarisation, delegation) are metered in FISH
-4. **Cross-platform identity verification** is gated by FISH stake — creates a real economy of trust
+This is the design principle that resolves the inclusion concern:
+
+**Path 1 — Stake $FISH**  
+For crypto-native users, organisations, and investors. Stake tokens to unlock premium features proportional to stake size.
+
+**Path 2 — Contribute to the Pan Galactic Timebank**  
+For everyone else. Volunteer hours — translating guides, onboarding new members, moderating bridges, building integrations — convert directly to premium access. No tokens required. A contributor who gives 10 hours to the network gets the same AI features as someone who staked 1,000 $FISH.
+
+Time is capital. This is non-negotiable to the Hitchhikers philosophy and it makes the token *more* valuable, not less — because it creates organic, non-speculative distribution at scale.
+
+### How $FISH circulates (real utility loops)
+
+| Mechanism | Direction | Description |
+|---|---|---|
+| **Bridging rewards** | Earn | Run a bridge connecting an active community → earn FISH continuously |
+| **Node operation** | Earn | Run a Babelfish infrastructure node → earn FISH for throughput |
+| **Timebank conversion** | Earn | Volunteer hours → convert to FISH at agreed rate |
+| **Identity vouching** | Stake | Stake to verify a cross-platform identity link; earn yield if proven trustworthy, slashed if false |
+| **Premium access** | Stake | Stake FISH to unlock premium features; unstake to exit |
+| **Governance** | Vote | Vote on which platforms get prioritised, protocol upgrades, timebank conversion rates |
+| **Agent identity** | Stake | OpenSERV agents stake FISH to establish a verified Babelfish identity |
 
 ### Token structure (draft)
 
 | Allocation | % | Vesting |
 |---|---|---|
-| Community / ecosystem rewards | 40% | Emitted over 5 years via bridging + staking |
+| Community / ecosystem rewards | 45% | Emitted over 5 years via bridging, node ops, and timebank |
 | Team + contributors | 20% | 12-month cliff, 36-month vest |
-| OpenSERV Builders Fund / partners | 15% | 6-month cliff, 24-month vest |
+| OpenSERV Builders Fund / partners | 10% | 6-month cliff, 24-month vest |
 | Treasury (governance-controlled) | 15% | Unlocked by governance vote |
 | Public sale / TGE | 10% | 20% at TGE, 80% over 12 months |
+
+Community allocation increased to 45% (from 40%) to reflect the timebank/volunteer pathway as a primary distribution mechanism — tokens earned through contribution, not purchased.
 
 **Chain:** Launch on Solana (aligned with OASIS pUSD, STAR token, existing Solana provider) with EVM bridge via OASIS Universal Asset Bridge.
 
@@ -178,15 +204,32 @@ Babelfish is not a product bolted onto Hitchhikers — it IS the communication l
 
 Babelfish delivers all of these. The OASIS avatar is the node. The trust graph is the disclosure layer. The messaging bridge is the InterFace Protocol.
 
-**Concrete partnership structure:**
+### On the concern about alienating community members
 
-1. **Babelfish becomes the official communication layer of Hitchhikers** — all circles, quests, and guide-building sessions route through it
-2. **Hitchhikers gets a founders' allocation of $FISH** — in exchange for brand, community, and the Hitchhiker's Guide IP association
-3. **Co-branded launch:** "Babelfish by OASIS × Hitchhikers" — leverages the H2G2 cultural resonance
-4. **Every Hitchhiker builder gets a Babelfish identity** as part of onboarding via Heart of Gold
-5. **The 42-day quest cycles** use Babelfish for circle comms, commitment logging, and Trust Graph building
+The core concern — raised by David Bovill and others — is valid: a token launch risks creating a two-tier community and alienating members who are philosophically opposed to financialisation of shared infrastructure.
 
-**On the name:** The Babel fish (H2G2) is in the public domain as a concept — Douglas Adams took it from the Tower of Babel. The specific H2G2 *character name* is owned by the Adams estate (now The Trustees of the Douglas Adams Literary Estate). A partnership or licence with Hitchhikers would clarify this cleanly. Worth a legal check before the TGE.
+The design resolves this by separating three things that are often conflated:
+
+1. **The protocol** (Babelfish as open-source infrastructure) — free, always, for everyone. Hitchhikers uses this layer. No token required.
+2. **The economic layer** ($FISH) — belongs to OASIS as a standalone product, not to Hitchhikers as an organisation. Hitchhikers didn't launch $FISH; OASIS did.
+3. **Premium access** — unlockable via $FISH stake OR via Timebank hours. Community members who object to tokens never touch one — they earn access through contribution.
+
+This means Hitchhikers can truthfully say: *"We use Babelfish. We don't run a token. Our members communicate for free. Those who want extra features can earn them by contributing time."*
+
+$FISH is Babelfish's sustainability mechanism, not Hitchhikers' governance token. The separation is clean.
+
+### Concrete partnership structure
+
+1. **Babelfish is the official communication layer of Hitchhikers** — all circles, quests, and guide-building sessions route through it, free at the base layer
+2. **Every Hitchhiker builder gets a Babelfish identity** automatically via Heart of Gold onboarding
+3. **The 42-day quest cycles** use Babelfish for circle comms, commitment logging, and Trust Graph building
+4. **Timebank hours earned through Hitchhikers activity** convert to Babelfish premium access — the two systems are natively connected
+5. **Hitchhikers gets a founders' allocation of $FISH** — held in a community treasury, governed by the community, not by any individual
+6. **Co-branded:** "Babelfish by OASIS × Hitchhikers" — the H2G2 cultural resonance is an asset, not a liability
+
+### On the name
+
+The Babel fish (H2G2) is in the public domain as a concept — Douglas Adams took it from the Tower of Babel. The specific H2G2 *character name* is owned by The Trustees of the Douglas Adams Literary Estate. A partnership or licence with Hitchhikers clarifies this cleanly. Worth a legal check before TGE.
 
 ---
 
