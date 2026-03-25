@@ -80,11 +80,16 @@ Launch on Solana. EVM bridge via OASIS Universal Asset Bridge. TGE target: July 
 
 ## Why now
 
-- Heart of Gold is live and deployed (builder onboarding)
-- Babelfish Discord↔Telegram bridge is working today
-- OpenSERV Builders Fund ($1M) is active — proposal submitted
-- Burning Man 2026 is 5 months away — 6 cohorts need to communicate
-- The agent economy is beginning — Babelfish is the only identity bridge that spans humans and agents
+**Global coordination is the bottleneck.** Hitchhikers is operating across dozens of circles, six cohorts, and multiple continents. OpenSERV is running a $1M Builders Fund program across hackathons, universities, and builders it has never met in person. Both need the same thing: a way for people who don't share a platform, a language, or a timezone to show up as trusted participants in a shared effort. That is exactly what Babelfish provides — and nothing else does.
+
+**Digital trust is the missing metric.** We have dashboards for money flows, code commits, grant disbursements, and event attendance. We do not have a live, verifiable measure of *who trusts whom* and *why*. Every governance system, every resource allocation decision, every quest assignment ultimately depends on trust — and right now that trust lives only in people's heads, or in centralised platforms that can delete it overnight. Babelfish, wired to BRAID, brings the trust graph online for the first time. It is the last vital sign we haven't instrumented.
+
+**The clock is running.** Burning Man 2026 is five months away. To have six cohorts of builders communicating fluidly across platforms, building verifiable trust graphs, and arriving at the playa as a coordinated network — the infrastructure needs to be live and embedded in their daily practice *now*, not in August. The same deadline applies to OpenSERV's Builders Fund: cohort onboarding begins in April/May. If Babelfish isn't running then, the trust data from the entire program is lost.
+
+- Babelfish Discord↔Telegram bridge is working today — this is not a proposal, it is a running system
+- Heart of Gold onboarding is live — builders can get a Babelfish identity in under 5 minutes
+- OpenSERV Builders Fund ($1M) is active — Babelfish is the coordination layer it is missing
+- The agent economy is beginning — Babelfish is the only bridge that spans humans and agents in the same identity layer
 
 ---
 
@@ -92,7 +97,7 @@ Launch on Solana. EVM bridge via OASIS Universal Asset Bridge. TGE target: July 
 
 | Ask | Amount | For |
 |---|---|---|
-| OpenSERV Builders Fund | $60K | Phase 2 platforms (WhatsApp, Signal, Slack) + agent layer |
+| OpenSERV Builders Fund | $42K | Phase 2 platforms (WhatsApp, Signal, Slack) + agent layer |
 | Hitchhikers founders allocation | 5% of $FISH | Brand partnership, community, IP association |
 | Community sale (TGE) | 10% of $FISH | Public launch, liquidity, ecosystem seeding |
 
