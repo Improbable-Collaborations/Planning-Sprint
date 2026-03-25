@@ -119,6 +119,10 @@ Babelfish is the communication nervous system for all of these. When a Hitchhike
 
 The entire Fabulous Machine's social architecture accumulates *automatically* through normal communication — no extra forms, no separate identity system, no centralised database.
 
+**This is the missing coordination layer.** Hitchhikers is operating across dozens of circles on multiple continents. OpenSERV is running a $1M Builders Fund program across builders who have never met. Both face the same bottleneck: how do you build genuine trust between people who don't share a platform or a timezone? Every governance decision, resource allocation, and quest assignment depends on trust that currently lives only in people's heads. The BRAID trust graph, accumulating through every Babelfish interaction, brings that metric online for the first time — making digital trust a measurable, portable, sovereign asset.
+
+**Burning Man 2026 is five months away.** For six Hitchhikers cohorts to arrive at the playa as a coordinated network — people who know each other, trust each other, with a verifiable record of that trust — the system has to be embedded in their daily practice now. The trust graph only has value if it has been accumulating. That means starting in April, not August.
+
 ---
 
 ## What we need from BRAID / Soulbis
@@ -132,11 +136,14 @@ The entire Fabulous Machine's social architecture accumulates *automatically* th
 
 ## Immediate next steps
 
-- [ ] Mitchell joins Babelfish Telegram/Discord channel to see the live bridge
-- [ ] Agree on PromiseHolon data schema (30-min call)
+Burning Man is five months away. OpenSERV cohort onboarding starts in April. The trust graph only has value if it has been accumulating — which means these decisions need to happen this week, not next quarter.
+
+- [ ] Mitchell joins Babelfish Telegram/Discord channel to see the live bridge (today)
+- [ ] Agree on PromiseHolon data schema (30-min call this week)
 - [ ] Wire Marvin agent (OpenSERV) as first non-human Babelfish participant
 - [ ] Draft ZK proof interface for trust graph claims
 - [ ] BRAID wire spec for Babelfish agent identity
+- [ ] Confirm Hitchhikers cohort 1 onboarding date — trust graph accumulation starts from first use
 
 ---
 

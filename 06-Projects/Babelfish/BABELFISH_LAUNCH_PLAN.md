@@ -318,7 +318,7 @@ All of this ships in one sprint. Ordered by week, not by phase.
 
 ---
 
-## Why this wins
+## Why this wins — and why it has to be now
 
 The core insight is simple: **communication IS identity.**
 
@@ -329,9 +329,15 @@ For agents: a real home across platforms, not just API endpoints.
 For communities: one space instead of five fragmented ones.  
 For the Fabulous Machine: the nervous system that connects every circle, every quest, every builder — without forcing anyone onto a single platform.
 
+**Global coordination is the bottleneck right now.** Hitchhikers is operating across dozens of circles on multiple continents. OpenSERV is running a $1M Builders Fund program across hackathons and universities it has never met in person. Both organisations face the same unsolved problem: how do you coordinate people who don't share a platform, a language, or a timezone, and still build genuine trust between them? That is the problem Babelfish solves — and nothing else does.
+
+**Digital trust is the last vital sign we haven't instrumented.** We have dashboards for money flows, code commits, grant disbursements, and event attendance. We do not have a live, verifiable measure of who trusts whom and why. Every governance decision, every resource allocation, every quest assignment depends on trust that currently lives only in people's heads or on platforms that can delete it overnight. The BRAID trust graph, wired through Babelfish, brings that metric online for the first time.
+
+**The clock is running.** Burning Man 2026 is five months away. To arrive at the playa as a genuinely coordinated network — six cohorts of builders who know each other, trust each other, and have a verifiable record of that trust — the infrastructure has to be embedded in their daily practice now, not in August. OpenSERV's cohort onboarding begins in April/May. The trust data from the entire Builders Fund program is lost if Babelfish isn't running from day one.
+
 The Babel fish in H2G2 was small, slightly slimy, and the most remarkable thing in the universe. It could translate any language instantly. It also caused more and bloodier wars than anything else in history — because suddenly everyone could understand exactly what everyone else was saying.
 
-We're building the peaceful version.
+We're building the peaceful version. And we're building it now.
 
 ---
 
